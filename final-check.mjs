@@ -32,6 +32,9 @@ console.log(`合计: ${data.length} 科 / ${modules} 模块 / ${items + tbCount}
 // 页面结构检查
 const checks = {
   '书香水墨背景 .inkwash': html.includes('class="inkwash"'),
+  '实物照片背景 .photo-bg': html.includes('photo-bg') && html.includes('images.unsplash.com'),
+  '照片失败回退 no-photo': html.includes('no-photo'),
+  '照片预加载 PHOTO_OK': html.includes('PHOTO_OK'),
   '科目动态背景 body[data-bg]': html.includes('body[data-bg="chinese"]') && html.includes('setBgMode'),
   '科目专属配色 MODE_COLORS': html.includes('MODE_COLORS'),
   '科目页面整体染色 body[data-bg]--bg': html.includes('body[data-bg="math"]{--bg') && html.includes('body[data-bg="chemistry"]{--bg'),

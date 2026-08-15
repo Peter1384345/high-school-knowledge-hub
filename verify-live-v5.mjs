@@ -5,6 +5,9 @@ const t = await r.text();
 console.log('HTTP', r.status, '|', (t.length / 1024).toFixed(1), 'KB');
 const checks = {
   '书香水墨背景 .inkwash': t.includes('class="inkwash"'),
+  '实物照片背景 .photo-bg': t.includes('photo-bg') && t.includes('images.unsplash.com'),
+  '照片失败回退 no-photo': t.includes('no-photo'),
+  '照片预加载 PHOTO_OK': t.includes('PHOTO_OK'),
   '科目动态背景 body[data-bg]': t.includes('body[data-bg="chinese"]') && t.includes('setBgMode'),
   '真实场景背景 initScene': t.includes('function initScene'),
   '噪点颗粒 drawNoise': t.includes('drawNoise') && t.includes('createPattern'),

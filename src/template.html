@@ -43,6 +43,18 @@ body.no-scroll{overflow:hidden}
 /* ============ 书香背景层（水墨晕染，随科目变色） ============ */
 .inkwash{position:fixed; inset:0; z-index:0; overflow:hidden; pointer-events:none}
 .inkwash i{position:absolute; border-radius:50%; filter:blur(70px); opacity:.8; animation:inkbreath 22s ease-in-out infinite alternate; transition:background 1.4s ease}
+/* 实物照片背景层（每科真实摄影图 + 强色调色膜，加载失败自动回退） */
+.photo-bg{position:fixed; inset:0; z-index:0; pointer-events:none; background-size:cover; background-position:center; opacity:.52; transition:opacity 1.4s ease}
+.photo-bg::after{content:''; position:absolute; inset:0; background:var(--veil, rgba(96,74,40,.35)); transition:background 1.4s ease}
+html[data-theme="dark"] .photo-bg{opacity:.34}
+body.no-photo .photo-bg{display:none}
+body[data-bg="chinese"] .photo-bg{background-image:url('https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1600&q=70&auto=format&fit=crop'); --veil:rgba(36,104,84,.52)}
+body[data-bg="math"] .photo-bg{background-image:url('https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1600&q=70&auto=format&fit=crop'); --veil:rgba(28,52,124,.55)}
+body[data-bg="english"] .photo-bg{background-image:url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1600&q=70&auto=format&fit=crop'); --veil:rgba(120,64,160,.52)}
+body[data-bg="physics"] .photo-bg{background-image:url('https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1600&q=70&auto=format&fit=crop'); --veil:rgba(40,116,176,.55)}
+body[data-bg="chemistry"] .photo-bg{background-image:url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1600&q=70&auto=format&fit=crop'); --veil:rgba(184,108,36,.52)}
+body[data-bg="biology"] .photo-bg{background-image:url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&q=70&auto=format&fit=crop'); --veil:rgba(52,124,64,.52)}
+body[data-bg="home"] .photo-bg{background-image:url('https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1600&q=70&auto=format&fit=crop'); --veil:rgba(96,74,40,.38)}
 .inkwash i:nth-child(1){width:48vw;height:48vw; left:-13vw; top:-15vh; background:radial-gradient(circle,var(--iw1,#d9cdab),transparent 70%)}
 .inkwash i:nth-child(2){width:42vw;height:42vw; right:-11vw; top:18vh; background:radial-gradient(circle,var(--iw2,#c4cda4),transparent 70%); animation-delay:-7s}
 .inkwash i:nth-child(3){width:44vw;height:44vw; left:24vw; bottom:-19vh; background:radial-gradient(circle,var(--iw3,#d8cbb0),transparent 70%); animation-delay:-14s}
@@ -359,6 +371,7 @@ html[data-theme="light"] .it-detail{background:rgba(30,60,120,.06)}
 <body>
 <canvas id="fx" aria-hidden="true"></canvas>
 <div class="inkwash" aria-hidden="true"><i></i><i></i><i></i></div>
+<div class="photo-bg" aria-hidden="true"></div>
 
 <header class="topbar">
   <button id="menuBtn" class="icon-btn" aria-label="菜单">☰</button>
@@ -449,6 +462,28 @@ themeBtn.addEventListener('click', () => {
   try { localStorage.setItem('hs_theme', theme); } catch (e) {}
   syncThemeBtn();
 });
+
+/* 真实照片背景：预加载，全部成功则叠加照片（画布场景变半透明），任一失败则回退纯程序化场景 */
+let PHOTO_OK = false;
+(function(){
+  const urls = {
+    home: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1600&q=70&auto=format&fit=crop',
+    chinese: 'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1600&q=70&auto=format&fit=crop',
+    math: 'https://images.unsplash.com/photo-1509228468518-180dd4864904?w=1600&q=70&auto=format&fit=crop',
+    english: 'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=1600&q=70&auto=format&fit=crop',
+    physics: 'https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=1600&q=70&auto=format&fit=crop',
+    chemistry: 'https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=1600&q=70&auto=format&fit=crop',
+    biology: 'https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600&q=70&auto=format&fit=crop'
+  };
+  let total = Object.keys(urls).length, done = 0, ok = 0;
+  function finish(){ if (ok === total) PHOTO_OK = true; else document.body.classList.add('no-photo'); }
+  for (const k in urls){
+    const im = new Image();
+    im.onload = () => { ok++; if (++done === total) finish(); };
+    im.onerror = () => { if (++done === total) finish(); };
+    im.src = urls[k];
+  }
+})();
 
 /* ============ 五级掌握 + 间隔重复复习（艾宾浩斯遗忘曲线） ============ */
 let mastery = {};
@@ -1768,8 +1803,10 @@ function initScene(canvas){
     const s = SCENES[mode] || SCENES.home;
     ensureFx(mode);
     const px = (mx / W - .5);
+    ctx.globalAlpha = PHOTO_OK ? .32 : 1;
     ctx.fillStyle = skyGrad(mode); ctx.fillRect(0, 0, W, H);
-    if (s.night){
+    ctx.globalAlpha = 1;
+    if (s.night && !PHOTO_OK){
       for (const st of stars){
         const tw = .5 + .5 * Math.sin(t * .002 * st.sp + st.ph);
         ctx.beginPath(); ctx.arc(st.x, st.y, st.r, 0, 6.283);
@@ -1786,7 +1823,7 @@ function initScene(canvas){
         for (let y = ((my - H / 2) * .04 % step); y < H; y += step){ ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
       }
     }
-    drawSun(mode);
+    if (!PHOTO_OK) drawSun(mode);
     if (!s.night) drawClouds();
     if (s.glow){
       const c = dark() ? darken(s.glow, .5) : s.glow;
@@ -1795,14 +1832,16 @@ function initScene(canvas){
       ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
     }
     if (mode === 'home' || mode === 'chinese'){
-      const layers = mode === 'chinese'
-        ? [[.6, 36, .006, 19, .011, .10], [.72, 30, .008, 16, .013, .17], [.85, 22, .01, 12, .016, .26]]
-        : [[.7, 26, .007, 14, .012, .06], [.84, 18, .009, 10, .014, .12]];
-      layers.forEach((L, i) => {
-        ctx.save(); ctx.translate(px * (i + 1) * 24, 0);
-        ridge(L[0], L[1], L[2], L[3], L[4], t, i * 130, dark() ? [150, 162, 174] : [106, 126, 140], L[5]);
-        ctx.restore();
-      });
+      if (!PHOTO_OK){
+        const layers = mode === 'chinese'
+          ? [[.6, 36, .006, 19, .011, .10], [.72, 30, .008, 16, .013, .17], [.85, 22, .01, 12, .016, .26]]
+          : [[.7, 26, .007, 14, .012, .06], [.84, 18, .009, 10, .014, .12]];
+        layers.forEach((L, i) => {
+          ctx.save(); ctx.translate(px * (i + 1) * 24, 0);
+          ridge(L[0], L[1], L[2], L[3], L[4], t, i * 130, dark() ? [150, 162, 174] : [106, 126, 140], L[5]);
+          ctx.restore();
+        });
+      }
       for (const b of birds){
         b.x += b.vx; if (b.x > W + 30) b.x = -30;
         const f = Math.sin(t * .006 + b.ph) * 3;
@@ -1823,7 +1862,7 @@ function initScene(canvas){
         ctx.restore();
       }
     }
-    if (s.sea){
+    if (s.sea && !PHOTO_OK){
       const hy = H * .62;
       const g = ctx.createLinearGradient(0, hy, 0, H);
       g.addColorStop(0, rgba(dark() ? [28, 50, 74] : [56, 90, 120], .92));
@@ -1845,7 +1884,7 @@ function initScene(canvas){
       ctx.beginPath(); ctx.moveTo(bx - 18, by); ctx.lineTo(bx + 18, by); ctx.lineTo(bx, by + 12); ctx.closePath();
       ctx.fillStyle = rgba(dark() ? [196, 124, 72] : [124, 74, 42], .85); ctx.fill();
     }
-    if (s.aurora){
+    if (s.aurora && !PHOTO_OK){
       const cols = [[60, 200, 160], [80, 170, 255], [150, 120, 255]];
       for (let k = 0; k < 3; k++){
         ctx.strokeStyle = rgba(cols[k], .09 + k * .02);
@@ -1859,21 +1898,23 @@ function initScene(canvas){
       }
     }
     if (s.meadow){
-      [[.72, 60, .005], [.86, 44, .007]].forEach((L, i) => {
-        ctx.save(); ctx.translate(px * (i + 1) * 18, 0);
-        ridge(L[0], L[1], L[2], 18, .009, t, i * 90, dark() ? [54, 90, 58] : [84, 140, 94], .5);
+      if (!PHOTO_OK){
+        [[.72, 60, .005], [.86, 44, .007]].forEach((L, i) => {
+          ctx.save(); ctx.translate(px * (i + 1) * 18, 0);
+          ridge(L[0], L[1], L[2], 18, .009, t, i * 90, dark() ? [54, 90, 58] : [84, 140, 94], .5);
+          ctx.restore();
+        });
+        ctx.save();
+        ctx.globalAlpha = dark() ? .05 : .1;
+        ctx.fillStyle = '#fff8e0';
+        for (let i = 0; i < 4; i++){
+          ctx.beginPath();
+          ctx.moveTo(W * .78, H * .26);
+          ctx.lineTo(W * .56 + i * W * .15, H); ctx.lineTo(W * .62 + i * W * .15, H);
+          ctx.closePath(); ctx.fill();
+        }
         ctx.restore();
-      });
-      ctx.save();
-      ctx.globalAlpha = dark() ? .05 : .1;
-      ctx.fillStyle = '#fff8e0';
-      for (let i = 0; i < 4; i++){
-        ctx.beginPath();
-        ctx.moveTo(W * .78, H * .26);
-        ctx.lineTo(W * .56 + i * W * .15, H); ctx.lineTo(W * .62 + i * W * .15, H);
-        ctx.closePath(); ctx.fill();
       }
-      ctx.restore();
       for (const lf of leaves){
         lf.y += lf.vy; lf.x += Math.sin(t * .003 + lf.ph) * .7;
         if (lf.y > H + 20){ lf.y = -20; lf.x = N() * W; }

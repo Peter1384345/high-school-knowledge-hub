@@ -1,0 +1,518 @@
+{
+  "0": [
+    {
+      "book": "必修第一册",
+      "units": [
+        {
+          "unit": "Welcome Unit",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "0|3" },
+            { "sec": "Reading and Thinking", "module": "0|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|0" },
+            { "sec": "Listening and Talking", "module": "0|3" },
+            { "sec": "Reading for Writing", "module": "0|5" },
+            { "sec": "Assessing Your Progress", "module": "0|3" }
+          ]
+        },
+        {
+          "unit": "Unit 1 Teenage Life",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "0|3" },
+            { "sec": "Reading and Thinking", "module": "0|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|3" },
+            { "sec": "Listening and Talking", "module": "0|3" },
+            { "sec": "Reading for Writing", "module": "0|5" },
+            { "sec": "Assessing Your Progress", "module": "0|3" }
+          ]
+        },
+        {
+          "unit": "Unit 2 Travelling Around",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "0|3" },
+            { "sec": "Reading and Thinking", "module": "0|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|0" },
+            { "sec": "Listening and Talking", "module": "0|3" },
+            { "sec": "Reading for Writing", "module": "0|5" },
+            { "sec": "Assessing Your Progress", "module": "0|3" }
+          ]
+        },
+        {
+          "unit": "Unit 3 Sports and Fitness",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "0|3" },
+            { "sec": "Reading and Thinking", "module": "0|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|0" },
+            { "sec": "Listening and Talking", "module": "0|3" },
+            { "sec": "Reading for Writing", "module": "0|5" },
+            { "sec": "Assessing Your Progress", "module": "0|3" }
+          ]
+        },
+        {
+          "unit": "Unit 4 Natural Disasters",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "0|3" },
+            { "sec": "Reading and Thinking", "module": "0|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|1" },
+            { "sec": "Listening and Talking", "module": "0|3" },
+            { "sec": "Reading for Writing", "module": "0|5" },
+            { "sec": "Assessing Your Progress", "module": "0|3" }
+          ]
+        },
+        {
+          "unit": "Unit 5 Languages Around the World",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "0|3" },
+            { "sec": "Reading and Thinking", "module": "0|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|1" },
+            { "sec": "Listening and Talking", "module": "0|3" },
+            { "sec": "Reading for Writing", "module": "0|5" },
+            { "sec": "Assessing Your Progress", "module": "0|3" }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "必修第二册",
+      "units": [
+        {
+          "unit": "Unit 1 Cultural Heritage",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "0|3" },
+            { "sec": "Reading and Thinking", "module": "0|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|1" },
+            { "sec": "Listening and Talking", "module": "0|3" },
+            { "sec": "Reading for Writing", "module": "0|5" },
+            { "sec": "Assessing Your Progress", "module": "0|3" }
+          ]
+        },
+        {
+          "unit": "Unit 2 Wildlife Protection",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "0|3" },
+            { "sec": "Reading and Thinking", "module": "0|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|0" },
+            { "sec": "Listening and Talking", "module": "0|3" },
+            { "sec": "Reading for Writing", "module": "0|5" },
+            { "sec": "Assessing Your Progress", "module": "0|3" }
+          ]
+        },
+        {
+          "unit": "Unit 3 The Internet",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "0|3" },
+            { "sec": "Reading and Thinking", "module": "0|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|0" },
+            { "sec": "Listening and Talking", "module": "0|3" },
+            { "sec": "Reading for Writing", "module": "0|5" },
+            { "sec": "Assessing Your Progress", "module": "0|3" }
+          ]
+        },
+        {
+          "unit": "Unit 4 History and Traditions",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "0|3" },
+            { "sec": "Reading and Thinking", "module": "0|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|0" },
+            { "sec": "Listening and Talking", "module": "0|3" },
+            { "sec": "Reading for Writing", "module": "0|5" },
+            { "sec": "Assessing Your Progress", "module": "0|3" }
+          ]
+        },
+        {
+          "unit": "Unit 5 Music",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "0|3" },
+            { "sec": "Reading and Thinking", "module": "0|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|0" },
+            { "sec": "Listening and Talking", "module": "0|3" },
+            { "sec": "Reading for Writing", "module": "0|5" },
+            { "sec": "Assessing Your Progress", "module": "0|3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "1": [
+    {
+      "book": "必修第三册",
+      "units": [
+        {
+          "unit": "Unit 1 Festivals and Celebrations",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "1|3" },
+            { "sec": "Reading and Thinking", "module": "1|4" },
+            { "sec": "Discovering Useful Structures", "module": "1|0" },
+            { "sec": "Listening and Talking", "module": "1|3" },
+            { "sec": "Reading for Writing", "module": "1|5" },
+            { "sec": "Assessing Your Progress", "module": "1|4" }
+          ]
+        },
+        {
+          "unit": "Unit 2 Morals and Virtues",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "1|3" },
+            { "sec": "Reading and Thinking", "module": "1|4" },
+            { "sec": "Discovering Useful Structures", "module": "1|0" },
+            { "sec": "Listening and Talking", "module": "1|3" },
+            { "sec": "Reading for Writing", "module": "1|5" },
+            { "sec": "Assessing Your Progress", "module": "1|4" }
+          ]
+        },
+        {
+          "unit": "Unit 3 Diverse Cultures",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "1|3" },
+            { "sec": "Reading and Thinking", "module": "1|4" },
+            { "sec": "Discovering Useful Structures", "module": "1|0" },
+            { "sec": "Listening and Talking", "module": "1|3" },
+            { "sec": "Reading for Writing", "module": "1|5" },
+            { "sec": "Assessing Your Progress", "module": "1|4" }
+          ]
+        },
+        {
+          "unit": "Unit 4 Space Exploration",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "1|3" },
+            { "sec": "Reading and Thinking", "module": "1|4" },
+            { "sec": "Discovering Useful Structures", "module": "1|0" },
+            { "sec": "Listening and Talking", "module": "1|3" },
+            { "sec": "Reading for Writing", "module": "1|5" },
+            { "sec": "Assessing Your Progress", "module": "1|4" }
+          ]
+        },
+        {
+          "unit": "Unit 5 The Value of Money",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "1|3" },
+            { "sec": "Reading and Thinking", "module": "1|4" },
+            { "sec": "Discovering Useful Structures", "module": "1|0" },
+            { "sec": "Listening and Talking", "module": "1|3" },
+            { "sec": "Reading for Writing", "module": "1|5" },
+            { "sec": "Assessing Your Progress", "module": "1|4" }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "选择性必修第一册",
+      "units": [
+        {
+          "unit": "Unit 1 People of Achievement",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "1|3" },
+            { "sec": "Reading and Thinking", "module": "1|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|0" },
+            { "sec": "Listening and Talking", "module": "1|3" },
+            { "sec": "Reading for Writing", "module": "1|5" },
+            { "sec": "Assessing Your Progress", "module": "1|4" }
+          ]
+        },
+        {
+          "unit": "Unit 2 Looking into the Future",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "1|3" },
+            { "sec": "Reading and Thinking", "module": "1|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|0" },
+            { "sec": "Listening and Talking", "module": "1|3" },
+            { "sec": "Reading for Writing", "module": "1|5" },
+            { "sec": "Assessing Your Progress", "module": "1|4" }
+          ]
+        },
+        {
+          "unit": "Unit 3 Fascinating Parks",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "1|3" },
+            { "sec": "Reading and Thinking", "module": "1|4" },
+            { "sec": "Discovering Useful Structures", "module": "0|0" },
+            { "sec": "Listening and Talking", "module": "1|3" },
+            { "sec": "Reading for Writing", "module": "1|5" },
+            { "sec": "Assessing Your Progress", "module": "1|4" }
+          ]
+        },
+        {
+          "unit": "Unit 4 Body Language",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "1|3" },
+            { "sec": "Reading and Thinking", "module": "1|4" },
+            { "sec": "Discovering Useful Structures", "module": "1|0" },
+            { "sec": "Listening and Talking", "module": "1|3" },
+            { "sec": "Reading for Writing", "module": "1|5" },
+            { "sec": "Assessing Your Progress", "module": "1|4" }
+          ]
+        },
+        {
+          "unit": "Unit 5 Working the Land",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "1|3" },
+            { "sec": "Reading and Thinking", "module": "1|4" },
+            { "sec": "Discovering Useful Structures", "module": "1|1" },
+            { "sec": "Listening and Talking", "module": "1|3" },
+            { "sec": "Reading for Writing", "module": "1|5" },
+            { "sec": "Assessing Your Progress", "module": "1|4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "2": [
+    {
+      "book": "选择性必修第二册",
+      "units": [
+        {
+          "unit": "Unit 1 Science and Scientists",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "1|1" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        },
+        {
+          "unit": "Unit 2 Bridging Cultures",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "1|1" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        },
+        {
+          "unit": "Unit 3 Food and Culture",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "1|1" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        },
+        {
+          "unit": "Unit 4 Journey Across a Vast Land",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "1|1" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        },
+        {
+          "unit": "Unit 5 First Aid",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "2|0" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "选择性必修第三册",
+      "units": [
+        {
+          "unit": "Unit 1 Art",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "0|0" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        },
+        {
+          "unit": "Unit 2 Healthy Lifestyle",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "2|1" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        },
+        {
+          "unit": "Unit 3 Environmental Protection",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "2|2" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        },
+        {
+          "unit": "Unit 4 Adversity and Courage",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "2|0" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        },
+        {
+          "unit": "Unit 5 Poems",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "2|2" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        }
+      ]
+    },
+    {
+      "book": "选择性必修第四册",
+      "units": [
+        {
+          "unit": "Unit 1 Science Fiction",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "2|1" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        },
+        {
+          "unit": "Unit 2 Iconic Attractions",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "2|2" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        },
+        {
+          "unit": "Unit 3 Sea Exploration",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "2|2" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        },
+        {
+          "unit": "Unit 4 Sharing",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "2|2" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        },
+        {
+          "unit": "Unit 5 Launching Your Career",
+          "sections": [
+            { "sec": "Listening and Speaking", "module": "2|4" },
+            { "sec": "Reading and Thinking", "module": "2|3" },
+            { "sec": "Discovering Useful Structures", "module": "2|2" },
+            { "sec": "Listening and Talking", "module": "2|4" },
+            { "sec": "Reading for Writing", "module": "2|6" },
+            { "sec": "Assessing Your Progress", "module": "2|2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "3": [
+    {
+      "book": "高考总复习",
+      "units": [
+        {
+          "unit": "语法填空专项与易错点",
+          "sections": [
+            { "sec": "有提示词与无提示词两类填空", "module": "3|0" },
+            { "sec": "动词题三步法：谓语判断、时态语态、主谓一致", "module": "3|0" },
+            { "sec": "词性转换规律与固定搭配", "module": "3|0" },
+            { "sec": "高频虚词：冠词、介词、连词、代词", "module": "3|0" }
+          ]
+        },
+        {
+          "unit": "短文改错专项（如适用）",
+          "sections": [
+            { "sec": "多一词、少一词、错一词三种类型", "module": "3|1" },
+            { "sec": "动词与名词类错误", "module": "3|1" },
+            { "sec": "形容词副词与冠词类错误", "module": "3|1" },
+            { "sec": "介词、连词与逻辑类错误", "module": "3|1" }
+          ]
+        },
+        {
+          "unit": "阅读理解专项（四大题型）",
+          "sections": [
+            { "sec": "细节理解题：关键词定位与同义改写", "module": "3|2" },
+            { "sec": "推理判断题：把握推断限度", "module": "3|2" },
+            { "sec": "主旨大意题：抓主题句、排除以偏概全", "module": "3|2" },
+            { "sec": "词义猜测题：语境线索与构词法", "module": "3|2" }
+          ]
+        },
+        {
+          "unit": "完形填空专项（解题策略）",
+          "sections": [
+            { "sec": "通读全文把握主线", "module": "3|3" },
+            { "sec": "上下文线索与词汇复现", "module": "3|3" },
+            { "sec": "逻辑线索与情感线索", "module": "3|3" },
+            { "sec": "答题节奏与回读验证", "module": "3|3" }
+          ]
+        },
+        {
+          "unit": "七选五专项",
+          "sections": [
+            { "sec": "段首主题句与段尾总结句", "module": "3|4" },
+            { "sec": "段中细节支撑与过渡", "module": "3|4" },
+            { "sec": "代词指代线索", "module": "3|4" },
+            { "sec": "逻辑连接词与词汇复现线索", "module": "3|4" }
+          ]
+        },
+        {
+          "unit": "书面表达专项（应用文/读后续写/概要写作）",
+          "sections": [
+            { "sec": "应用文模板化训练", "module": "3|5" },
+            { "sec": "读后续写框架与衔接", "module": "3|5" },
+            { "sec": "概要写作三步法", "module": "3|5" },
+            { "sec": "评分要素与时间分配", "module": "3|5" }
+          ]
+        },
+        {
+          "unit": "高频词汇短语与句型盘点",
+          "sections": [
+            { "sec": "高频动词短语与名词短语", "module": "3|6" },
+            { "sec": "写作高分句型与易混短语辨析", "module": "3|6" },
+            { "sec": "强调句型与倒装句型", "module": "3|6" },
+            { "sec": "非谓语高频句型与过渡词", "module": "3|6" }
+          ]
+        },
+        {
+          "unit": "听力技巧（如适用）",
+          "sections": [
+            { "sec": "听前预测与浏览题目", "module": "3|7" },
+            { "sec": "数字信息与细节捕捉", "module": "3|7" },
+            { "sec": "人物关系与地点场景推断", "module": "3|7" },
+            { "sec": "主旨大意与说话人意图推断", "module": "3|7" }
+          ]
+        }
+      ]
+    }
+  ]
+}

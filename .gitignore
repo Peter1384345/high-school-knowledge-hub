@@ -1,0 +1,4 @@
+# 会话备份与临时文件
+dsh-session-*.zip
+.check_*
+*.log

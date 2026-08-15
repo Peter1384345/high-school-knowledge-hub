@@ -1,0 +1,2013 @@
+{
+  "0|0|k|0": {
+    "explain": "一般现在时讲「习惯与真理」：经常性动作、客观事实、普遍真理都用它。口诀「三单加 s，其余用原形」，主语是 he/she/it 时动词加 -s。",
+    "example": "例句 The earth goes around the sun，goes 是 go 的三单形式；客观真理与时间无关，所以永远用一般现在时。",
+    "tip": "客观真理永远用一般现在时，即使主句是过去时。"
+  },
+  "0|0|k|1": {
+    "explain": "一般过去时表过去的动作或状态，常与 yesterday、ago 连用。不规则动词过去式强记：go-went、see-saw、take-took；规则动词加 -ed。",
+    "example": "例句 I saw the film yesterday，saw 是 see 的不规则过去式，yesterday 提示动作在过去，所以用过去时。",
+    "tip": "不规则动词过去式靠积累，went、saw、took 要记牢。"
+  },
+  "0|0|k|2": {
+    "explain": "现在进行时由「be + 现在分词」构成，强调此刻正在进行的动作，常与 now 连用。口诀「be 加 doing，正在进行中」。",
+    "example": "例句 Look! The children are playing football，Look 提示动作正发生，所以用 are playing 而非 play。",
+    "tip": "见到 look、listen、now 想进行时，状态动词一般不用于进行时。"
+  },
+  "0|0|k|3": {
+    "explain": "一般将来时三种表达：will do 表临时决定，be going to do 表事先打算，be about to do 表即将发生。判定看「主观意图」还是「客观预测」。",
+    "example": "例句 I will help you with your homework，will 表示说话时临时决定，不是事先计划，这正是与 going to 的区别。",
+    "tip": "be about to do 不与具体时间状语连用，常接 when 从句。"
+  },
+  "0|0|k|4": {
+    "explain": "现在完成时「have/has + 过去分词」连接过去与现在：强调动作对现在的影响或持续至今，常与 already、yet、since、for 连用。",
+    "example": "例句 I have already finished my homework，already 提示已完成且影响现在，所以用 have finished。",
+    "tip": "since 后接时间点、for 后接时间段，看到它们先想完成时。"
+  },
+  "0|0|k|5": {
+    "explain": "被动语态「be + 过去分词」表主语是承受者，时态体现在 be 上：is built、was built、has been built。主语与动词是被动关系时用被动。",
+    "example": "例句 The bridge was built last year，bridge 是 build 的承受者，was built 表过去被动，缺 be 即错。",
+    "tip": "被动时态看 be 的变化，过去分词不变，情态动词后接 be done。"
+  },
+  "0|0|k|6": {
+    "explain": "时态选择「时间状语优先、语境兜底」：since、for、already 指向完成时，yesterday、ago 指向过去时，now 指向进行时，无状语看是否影响现在。",
+    "example": "例句 He has lived here since 2010，since 接时间点，表从那时持续至今，主句用现在完成时。",
+    "tip": "先圈时间状语再选时态；无状语时看动作是否影响现在。"
+  },
+  "0|0|d|0": {
+    "explain": "两者都涉及过去，区别在关注点：一般过去时只陈述过去的事，现在完成时强调对现在的影响。口诀「过去完成看结果，单纯过去用过去」。",
+    "example": "例句 I saw the film 只说看过；I have seen the film 强调「看过了不用再看」，完成时带着对现在的影响。",
+    "tip": "看句中是否有 already、yet、since、for，有则用完成时。"
+  },
+  "0|0|d|1": {
+    "explain": "buy、join、leave 等短暂动词表瞬间动作，不能接 for/since，须换延续动词：buy 变 have、join 变 be in、leave 变 be away。",
+    "example": "例句 He has been in the army for five years，不能说 joined，因为 join 是瞬间动作，要用 be in 接时间段。",
+    "tip": "记牢「短暂换延续」：borrow 换 keep、open 换 be open。"
+  },
+  "0|0|d|2": {
+    "explain": "make、let、see、hear 后接不定式作宾补省略 to，即「make sb do」；变被动语态时 to 必须还原，变成 sb is made to do。",
+    "example": "例句 He was made to clean the room，主动句 clean 前无 to，变被动后必须加 to，漏掉即错。",
+    "tip": "看到 make、see、hear 的被动式，后面动词必须带 to。"
+  },
+  "0|0|d|3": {
+    "explain": "主将从现：主句用将来时，时间、条件状语从句用一般现在时表将来。标志词 if、when、as soon as、unless。口诀「主将从句现」。",
+    "example": "例句 If it rains tomorrow, we will stay at home，if 从句虽有 tomorrow 仍用 rains，主句用 will stay。",
+    "tip": "见到 if、when、until 从句先想主将从现，从句用一般现在时。"
+  },
+  "0|0|e|0": {
+    "explain": "语法填空动词题先判断是否作谓语：作谓语则按时态语态变形，结合时间状语与语境，再考虑主谓一致。判定顺序「谓语、时态、语态、一致」。",
+    "tip": "先找时间状语和主语确定时态语态，别一上来就填原型。"
+  },
+  "0|0|e|1": {
+    "explain": "被动语态常与情态动词、完成时结合考查：情态动词 + be done、have/has been done。判定主语与动词的主被动关系是关键。",
+    "example": "例句 The work must be done today，must 后接 be done 表必须被完成，注意 must 后不加 have。",
+    "tip": "情态动词后接 be done，别把时态搞乱。"
+  },
+  "0|0|e|2": {
+    "explain": "since 接时间点或从句、for 接时间段，常与现在完成时连用；since 从句用一般过去时，主句用现在完成时，考查时态呼应。",
+    "tip": "since 从句用过去时、主句用完成时，固定搭配直接套用。"
+  },
+  "0|0|e|3": {
+    "explain": "改错常设时态混用陷阱：该用过去时却用现在时。解题须通读全文确定时间线，以首句时态为基准逐个核对动词。",
+    "tip": "通读全文画时间线，以首句时态为基准逐一核对动词。"
+  },
+  "0|1|k|0": {
+    "explain": "定语从句由关系词引导，先行词指人用 who、whom、that，指物用 which、that。先看先行词指人指物，再看关系词作何成分。",
+    "example": "例句 The girl who is singing is my sister，先行词 girl 指人，who 作从句主语，所以用 who。",
+    "tip": "先看先行词指人指物，再看关系词在从句中的成分。"
+  },
+  "0|1|k|1": {
+    "explain": "关系代词在从句中作宾语时可省略：The book (that) I bought is interesting。判定：还原从句后关系词作宾语就可省，作主语不能省。",
+    "example": "例句 The book (that) I bought is interesting，that 作 bought 的宾语可省；若作主语则不可省。",
+    "tip": "省略只发生在作宾语时，从句缺主语关系词不能少。"
+  },
+  "0|1|k|2": {
+    "explain": "whose 表所属，先行词指人或物均可，在从句中作定语修饰名词。whose 相当于「先行词的」，后面必然接名词。",
+    "example": "例句 The boy whose father is a doctor works hard，whose father 表「那个男孩的爸爸」，作从句定语。",
+    "tip": "从句中名词前缺「谁的」就用 whose，与指人指物无关。"
+  },
+  "0|1|k|3": {
+    "explain": "关系副词在从句中作状语：where 表地点、when 表时间、why 表原因。口诀「从句缺状语用副词，缺主宾用代词」。",
+    "example": "例句 This is the school where I studied，从句 I studied 结构完整、缺地点状语，所以用 where。",
+    "tip": "把从句写完整，缺主宾语选代词，缺状语选关系副词。"
+  },
+  "0|1|k|4": {
+    "explain": "that 与 which 多可互换，但先行词是不定代词或受最高级、序数词修饰时只用 that。口诀「不定代词最高级，序数词前只用 that」。",
+    "example": "例句 This is the best film that I have ever seen，先行词前有最高级 the best，关系词只能用 that。",
+    "tip": "见到 the best、the first、all 等词，关系词一律选 that。"
+  },
+  "0|1|k|5": {
+    "explain": "介词可提到关系代词前构成「介词 + which/whom」，介词由先行词或谓语动词的搭配决定，如 depend on which。介词后不用 that。",
+    "example": "例句 The house in which I live is old，live in the house 搭配固定，介词 in 提前接 which。",
+    "tip": "先还原动词介词搭配，介词后只用 which/whom。"
+  },
+  "0|1|k|6": {
+    "explain": "非限制性定语从句用逗号隔开，起补充说明作用，不能用 that，指人用 who、指物用 which，which 还可指代整个句子。",
+    "example": "例句 Tom, who is my best friend, came to see me，who 引导非限制性从句，前后有逗号，不能用 that。",
+    "tip": "看到逗号想非限制性从句，禁用 that。"
+  },
+  "0|1|d|0": {
+    "explain": "只用 that 的情况要死记：先行词为 all、everything 等不定代词，或被最高级、序数词、the only 修饰时；介词之后只用 which。",
+    "example": "例句 I have read all the books that you lent me，先行词 all 是不定代词，关系词只能用 that。",
+    "tip": "「不定代词、最高级、序数词」用 that，介词后用 which。"
+  },
+  "0|1|d|1": {
+    "explain": "先行词是 the way 时，关系词用 that、in which 或省略，三种都对：the way (that) he works。不能用 how 引导定语从句。",
+    "example": "例句 I don't like the way (that) he speaks，the way 表方式，填 that、in which 或省略都行，不填 how。",
+    "tip": "the way 后接 that、in which 或省略，永远不接 how。"
+  },
+  "0|1|d|2": {
+    "explain": "关系代词与关系副词的选择：把从句还原，缺主语或宾语用关系代词，缺地点、时间、原因状语用关系副词，勿凭先行词判断。",
+    "example": "例句 the days when we stayed 缺时间状语用 when；the days that we spent 缺宾语用 that。",
+    "tip": "还原从句成分是唯一标准：缺主宾用代词、缺状语用副词。"
+  },
+  "0|1|d|3": {
+    "explain": "介词 + 关系代词中介词的确定：看从句谓语动词或先行词的固定搭配，如 talk about、depend on。把介词放回从句验证搭配成立。",
+    "example": "例句 The man with whom you talked is our teacher，talk with sb 搭配固定，介词 with 提前接 whom。",
+    "tip": "把介词放回从句末尾验证搭配是否成立。"
+  },
+  "0|1|d|4": {
+    "explain": "先行词 time 比较特殊：表「次数」用 that 或省略，表「一段时间」用 when，如 the first time (that) I came here。",
+    "example": "例句 This is the first time (that) I have visited Beijing，表「第一次」用 that 或省略，从句常用完成时。",
+    "tip": "time 作先行词先辨含义：次数用 that 可省，时间段用 when。"
+  },
+  "0|1|e|0": {
+    "explain": "语法填空考关系词选择：先判断从句成分，缺主语宾语用关系代词，缺状语用关系副词；再结合先行词指人指物。",
+    "tip": "先还原从句判成分，再定先行词指人指物。"
+  },
+  "0|1|e|1": {
+    "explain": "非限制性定语从句是高频考点，注意 which 可指代前面整个句子的内容，关系词前有逗号，不能用 that。",
+    "example": "例句 He was late again, which made the teacher angry，which 指代「他又迟到」整件事，作从句主语。",
+    "tip": "which 指代整句时必用 which，不能用 that。"
+  },
+  "0|1|e|2": {
+    "explain": "定语从句与强调句、同位语从句的区分：强调句去掉 It is...that 后句子完整；定语从句 that 作成分；同位语从句 that 不作成分。",
+    "tip": "把 that 去掉，看 it 和 that 是否都能删，能删是强调句。"
+  },
+  "0|1|e|3": {
+    "explain": "改错常见关系词误用：that 用于非限制性从句、关系词缺失或多余。逐句检查每个从句的关系词及其成分功能即可发现。",
+    "tip": "非限制性从句禁 that；缺主宾时关系词不可省。"
+  },
+  "0|2|k|0": {
+    "explain": "情态动词后接动词原形，无人称变化。can 表能力、may 表允许、must 表必须；否定形式各异：can't、mustn't、needn't。",
+    "example": "例句 She can speak three languages，can 后接原形 speak，不随主语变化，这是情态动词的基本特点。",
+    "tip": "情态动词后永远接原形，无人称变化，别写 she cans。"
+  },
+  "0|2|k|1": {
+    "explain": "推测语气强弱：must 表一定（只用于肯定句）、can't 表不可能、may/might 表可能，语气逐级减弱。判定靠语境证据。",
+    "example": "例句 He must be at home, for the light is on，灯亮是证据用 must；灯灭想说不可能则用 can't。",
+    "tip": "肯定推测用 must，否定推测用 can't，may/might 表可能。"
+  },
+  "0|2|k|2": {
+    "explain": "「情态动词 + have done」表对过去的推测：must have done 一定做过、can't have done 不可能做过、may have done 可能做过。",
+    "example": "例句 He must have finished the work yesterday，yesterday 表过去，must have finished 是对过去的肯定推测。",
+    "tip": "对过去的推测一律用 have done，别用 must do。"
+  },
+  "0|2|k|3": {
+    "explain": "should have done 表本应该做而没做，含责备或遗憾；shouldn't have done 表本不该做却做了。类似 needn't have done 表本不必做。",
+    "example": "例句 You should have told me earlier，本应早点告诉我（但没告诉），含责备语气。",
+    "tip": "should have done 暗含「没做」的事实。"
+  },
+  "0|2|k|4": {
+    "explain": "两者比较用比较级 + than，三者以上用最高级，最高级前加 the，常与 of all 连用。单音节加 -er/-est，多音节用 more/most。",
+    "example": "例句 Tom is taller than Jack，两人比较用 taller than；三者以上用 the tallest of all。",
+    "tip": "比较级用于两者，最高级用于三者以上且加 the。"
+  },
+  "0|2|k|5": {
+    "explain": "as...as 表同级比较，中间用原级；否定式 not as/so...as 表不如。中间绝不能用比较级。",
+    "example": "例句 This box is as heavy as that one，中间是原级 heavy，不能写成 as heavier as。",
+    "tip": "as...as 中间填原级，否定式用 not as/so...as。"
+  },
+  "0|2|k|6": {
+    "explain": "「the + 比较级，the + 比较级」表越……越……，两个分句都用比较级开头，前从句后主句，表达递增关系。",
+    "example": "例句 The more you read, the more you know，越读知道得越多，两个 the + 比较级前后呼应。",
+    "tip": "此句型前后都用比较级且都带 the。"
+  },
+  "0|2|d|0": {
+    "explain": "must 表推测时否定用 can't，绝不能写 mustn't——mustn't 表禁止。推测语境用 can't，命令语境用 mustn't，这是最易错点。",
+    "example": "例句 He can't be in the classroom, for the door is locked，门锁着说明不可能在教室，用 can't。",
+    "tip": "推测否定用 can't，禁止才用 mustn't。"
+  },
+  "0|2|d|1": {
+    "explain": "情态动词 + do 表现在或将来的推测，+ have done 表对过去的推测。判定看时间状语：now 用 do，yesterday 用 have done。",
+    "example": "例句 He may be at home now 用 be；He may have been at home last night 用 have been，时间状语定结构。",
+    "tip": "找时间状语定现在还是过去，过去一律 have done。"
+  },
+  "0|2|d|2": {
+    "explain": "比较级可用 much、far、a little、even 修饰程度，但 very 只能修饰原级，不能修饰比较级。",
+    "example": "例句 This problem is much more difficult than that one，much 修饰比较级表难得多，不能说 very more。",
+    "tip": "much、far 修饰比较级，very 修饰原级。"
+  },
+  "0|2|d|3": {
+    "explain": "no more than 表仅仅、强调少，相当于 only；not more than 表不超过，是客观描述。no 带感情色彩，not 客观陈述。",
+    "example": "例句 He has no more than ten yuan 是他只有十块钱；not more than ten 是他最多十块钱。",
+    "tip": "no more than 等于 only；not more than 是客观的不超过。"
+  },
+  "0|2|d|4": {
+    "explain": "隐含比较句省略比较对象，需按语境补全，如 The older I get, the wiser I become。注意冠词与比较级前后呼应。",
+    "example": "例句 The sooner, the better 是省略句，补全为 The sooner you do it, the better it will be。",
+    "tip": "隐含比较句补全主语谓语再判断。"
+  },
+  "0|2|e|0": {
+    "explain": "语法填空常考推测用法：结合语境判断可能性大小，证据确凿用 must，否定用 can't，不确定用 may/might，过去推测加 have done。",
+    "tip": "先读语境定语气强弱，再选 must/can't/may。"
+  },
+  "0|2|e|1": {
+    "explain": "最高级可用「比较级 + than any other + 单数名词」表达，注意 any other 后接单数名词，逻辑上排除主语本身。",
+    "example": "例句 Tom runs faster than any other boy in his class，any other boy 排除 Tom 本人，相当于最高级。",
+    "tip": "any other 后接单数名词，排除主语本身。"
+  },
+  "0|2|e|2": {
+    "explain": "倍数表达三种结构：倍数 + as...as、倍数 + 比较级 + than、倍数 + the size of，倍数词固定放在最前。",
+    "example": "例句 This room is twice as large as that one，twice 置于 as...as 之前，表是……的两倍大。",
+    "tip": "倍数词永远放在 as...as、比较级或 the size of 之前。"
+  },
+  "0|2|e|3": {
+    "explain": "改错常考 more 与比较级连用造成重复（more better 应为 better）、最高级前缺 the 等错误。检查比较级前后是否多余或缺失。",
+    "tip": "more 不能与 -er 连用，最高级前不能漏 the。"
+  },
+  "0|3|k|0": {
+    "explain": "词汇按话题分类记忆效率最高：学校生活、友谊、自然灾害、健康、节日文化，同话题词一起记，写作时按话题提取。",
+    "example": "话题友谊词群 friendship、trust、support、share，组句 Friends should trust each other 来记，词不离句。",
+    "tip": "按话题建词群，同话题词一起记。"
+  },
+  "0|3|k|1": {
+    "explain": "动词短语由动词加介词或副词构成，含义常与字面不同：look forward to 期待、take part in 参加、come up with 想出。",
+    "example": "例句 I'm looking forward to hearing from you，look forward to 后接动名词 hearing，不能接原形。",
+    "tip": "动词短语注意 to 后接 doing 还是原形。"
+  },
+  "0|3|k|2": {
+    "explain": "构词法是扩大词汇量的捷径：前缀 un-、dis- 表否定，后缀 -tion、-ment 变名词，-ful 变形容词，由已知词推生词义。",
+    "example": "例句 He was unhappy about the decision，un- 加在 happy 前表否定；develop 加 -ment 变 development。",
+    "tip": "见生词先拆前缀后缀词根，猜完回语境验证。"
+  },
+  "0|3|k|3": {
+    "explain": "develop、cover、charge 等词在不同语境含义不同：cover 表覆盖、报道、支付，charge 表收费、充电。理解靠语境，背诵靠例句。",
+    "example": "例句 The magazine covered the story 中 cover 表报道；Please cover the pot 中 cover 表盖住。",
+    "tip": "一词多义靠语境猜、靠例句记，多读多积累。"
+  },
+  "0|3|k|4": {
+    "explain": "应用文靠功能句型支撑：建议 I suggest that...、邀请 Would you like to...、感谢 Thank you for...，每种功能备两三句。",
+    "example": "例句 I'm writing to invite you to join our club，invite 功能句开门见山表达邀请意图。",
+    "tip": "按功能分类背句型，应用文开头结尾直接套用。"
+  },
+  "0|3|k|5": {
+    "explain": "词汇从词性、搭配、语境三维记忆：词性定用法、搭配定组合、语境定含义，三维齐备才能从认得到会用。",
+    "example": "记忆 develop：词性动词、搭配 develop a habit、语境 We should develop a good reading habit。",
+    "tip": "背词同时记词性、搭配和例句，别只背拼写。"
+  },
+  "0|3|d|0": {
+    "explain": "动词短语加不同小品词含义迥异：look up 查寻与 look up to 尊敬、turn on 打开与 turn out 结果是。辨析靠整体记忆。",
+    "example": "例句 Please look up the word in the dictionary 是查阅；I look up to my teacher 是尊敬。",
+    "tip": "短语按动词加介词成组对比记忆。"
+  },
+  "0|3|d|1": {
+    "explain": "形近词辨析：adapt 适应与 adopt 采纳、affect 影响与 effect 影响、beside 在旁边与 besides 此外，拼写相近含义不同。",
+    "example": "例句 We should adapt to the new environment 是适应；The school adopted a new rule 是采纳。",
+    "tip": "形近词成对抄写对比，记差异字母。"
+  },
+  "0|3|d|2": {
+    "explain": "熟词生义指熟词在特定语境中的陌生含义，如 book 表预订、address 表处理。脱离记忆语境难以理解，需阅读中反复接触。",
+    "example": "例句 I'd like to book a room 中 book 不是书而是预订，靠语境判断。",
+    "tip": "熟词代入不通顺时想生义，如 book 预订。"
+  },
+  "0|3|d|3": {
+    "explain": "不规则动词只能强记：choose-chose-chosen、lose-lost-lost、lie-lay-lain 与 lay-laid-laid 易混，按三列分组背诵。",
+    "example": "例句 He chose to stay at home，choose 的过去式是 chose 而非 choosed。",
+    "tip": "不规则动词分组强记，lie 与 lay 别混。"
+  },
+  "0|3|d|4": {
+    "explain": "形容词与介词搭配是固定习惯：be fond of 喜欢、be familiar with 熟悉、be good at 擅长，需分类记忆并留意介词区别。",
+    "example": "例句 She is fond of music，介词 of 固定，不能说 be fond with。",
+    "tip": "形容词搭配的介词逐个记，of/with/at 成组对比。"
+  },
+  "0|3|e|0": {
+    "explain": "完形与语法填空考查词汇在语境中的运用，动词短语与固定搭配是重点。先理解句意再匹配搭配，注意介词是否搭配正确。",
+    "tip": "遇动词短语先想搭配对象，介词选错往往是考点。"
+  },
+  "0|3|e|1": {
+    "explain": "阅读遇生词利用构词法与语境线索（定义、举例、对比、因果）猜词，猜完回原文验证是否符合逻辑。",
+    "tip": "猜词三步：拆构词、找线索、回验证。"
+  },
+  "0|3|e|2": {
+    "explain": "写作中高频短语的拼写与搭配影响评分，如 take part in 不能写成 take part of。写作时用熟悉的短语，不确定就别硬用。",
+    "tip": "写作只用有把握的短语，不确定就换简单表达。"
+  },
+  "0|3|e|3": {
+    "explain": "词性转换是语法填空必考点：形容词变副词加 -ly、动词变名词加 -tion、形容词变名词加 -ness，掌握常见后缀。",
+    "tip": "先判断所需词性，再按规则转换。"
+  },
+  "0|4|k|0": {
+    "explain": "先读题干再读文章，带着问题定位信息，效率高。读题干圈关键词（人名、数字、专有名词），读文章快速定位对应段落。",
+    "example": "题干问 When did the event happen?，关键词 when 提示找时间信息，直接定位时间状语所在句。",
+    "tip": "先题后文、圈关键词、定位答题。"
+  },
+  "0|4|k|1": {
+    "explain": "细节题答案在原文中，三步解题：题干关键词回原文定位、找到对应句、逐词比对选项与原文。注意选项常做同义改写。",
+    "example": "原文 The museum opens at 9 am，选项 open at nine o'clock 与原文同义，比对后确认。",
+    "tip": "细节题必须回原文定位，不能凭印象。"
+  },
+  "0|4|k|2": {
+    "explain": "主旨题找中心思想：重点读首尾段与各段首句，归纳时抓反复出现的高频词。干扰项常是局部细节或过度概括。",
+    "example": "各段讲 recycling 的好处，首段末句 The benefits of recycling are many 即主旨句。",
+    "tip": "主旨题看首尾段和各段首句，细节项多为干扰。"
+  },
+  "0|4|k|3": {
+    "explain": "猜词利用上下文逻辑线索：定义（is、means）、举例（for example）、因果（because）、转折（but）、对比（unlike）。",
+    "example": "例句 The animal is nocturnal, meaning it sleeps in the day，meaning 后是定义，nocturnal 意为夜行的。",
+    "tip": "找定义、举例、对比等线索词，猜完代入验证。"
+  },
+  "0|4|k|4": {
+    "explain": "推理题依据原文事实推断言外之意，答案是从原文推出来的。正确选项以原文为基础且推断适度，直接重复原文的多是陷阱。",
+    "example": "原文 He locked the door before leaving，可推断 He was careful，不能说 He was afraid。",
+    "tip": "推理以原文为底线，超出原文范围的选项必错。"
+  },
+  "0|4|k|5": {
+    "explain": "标题要概括主旨、简洁醒目，是主旨的精炼版。排除以偏概全和过于宽泛的选项，选最能覆盖全文的。",
+    "example": "文章讲企鹅生存危机，标题 A New Threat to Penguins 优于 Penguins 或 One Penguin's Story。",
+    "tip": "标题选概括全文又不过宽的，细节化标题多为干扰。"
+  },
+  "0|4|k|6": {
+    "explain": "限时训练培养节奏：每分钟 60~80 词，先略读抓结构再精读定位。平时计时训练，考试才不慌。",
+    "tip": "平时计时训练，先略读抓结构，再精读定位。"
+  },
+  "0|4|d|0": {
+    "explain": "细节题干扰项常偷换概念、扩大范围、张冠李戴。对策是逐词比对：把选项与原文对应句逐词核对，不一致即排除。",
+    "example": "原文 Tom and his brother，选项只说 Tom 是范围缩小；原文 30 分钟，选项 13 分钟是数字偷换。",
+    "tip": "逐词比对选项与原文，数字人名范围词都不能放过。"
+  },
+  "0|4|d|1": {
+    "explain": "主旨题难点在区分大意与细节：选项出现原文具体事例、数据、细节描述的多为干扰。主旨应是全文概括而非某段总结。",
+    "example": "文章讲健康饮食三方面，选项 One way to eat healthily 是细节，应选整体概括 How to eat healthily。",
+    "tip": "选项太具体是细节干扰，太抽象是宽泛干扰。"
+  },
+  "0|4|d|2": {
+    "explain": "推理题两个极端：过度推断超出原文信息，推理不足只重复原文。正确推理以原文事实为依据，合理外推一步。",
+    "example": "原文 It rained all day，可推断不能远足；推断心情差就是过度推断，原文没提心情。",
+    "tip": "推断只外推一步，原文没提的信息绝不选。"
+  },
+  "0|4|d|3": {
+    "explain": "长难句先找主干：划出谓语动词确定主谓宾，再逐层分析从句与修饰成分。方法「找谓语、抓主干、剥修饰」。",
+    "example": "例句 The boy standing at the door is my brother，先找谓语 is，主干是 The boy is my brother。",
+    "tip": "先找谓语定主干，修饰成分逐层剥离。"
+  },
+  "0|4|d|4": {
+    "explain": "熟词生义与派生词阻碍理解，如 address 表处理。对策：熟词代入不通顺就试生义，或根据构词法推派生义。",
+    "example": "The report addressed the problem，address 不是地址而是处理，靠语境推断。",
+    "tip": "熟词不通顺立即想生义，派生词拆前后缀。"
+  },
+  "0|4|e|0": {
+    "explain": "全国卷阅读四篇难度递增：前两篇重细节定位，后两篇重推断与主旨。合理分配时间，后两篇多留时间精读。",
+    "tip": "前两篇快准狠，后两篇留足时间。"
+  },
+  "0|4|e|1": {
+    "explain": "细节题占比最高，关键词定位法是基本策略：题干关键词回原文定位，比对选项与原文，是最稳的得分手段。",
+    "tip": "细节题用关键词定位法，定位句即答案句。"
+  },
+  "0|4|e|2": {
+    "explain": "词义猜测题每年必考，考查构词法与语境推断能力。先看词根词缀猜大意，再找定义、举例、因果线索验证。",
+    "tip": "猜词题必考，先构词后语境，双保险验证。"
+  },
+  "0|4|e|3": {
+    "explain": "应用文常设信息匹配题，如活动时间、地点、费用对应。先读题干找信息类型，再快速扫读文章找对应内容。",
+    "tip": "应用文扫读定位，数字时间地点直接匹配。"
+  },
+  "0|5|k|0": {
+    "explain": "应用文类型多样：书信、电子邮件、通知、日记、留言条，格式各异。书信重称呼署名，通知重标题与时间地点。",
+    "example": "书信 Dear Tom 开头、Yours sincerely 结尾；通知以 Notice 为标题，正文说明时间地点。",
+    "tip": "动笔先定类型，书信通知格式不能混用。"
+  },
+  "0|5|k|1": {
+    "explain": "书信格式五要素：称呼、正文、结束语、署名。称呼后加逗号，结束语用 Yours sincerely，署名在右下角。",
+    "example": "格式：Dear Tom, 加正文加 Yours sincerely, 加 Li Hua，称呼与署名位置有规范。",
+    "tip": "称呼后逗号、署名右下角，格式细节别丢分。"
+  },
+  "0|5|k|2": {
+    "explain": "书信句型按功能储备：开头 I'm writing to...、表达愿望 I'd like to...、期待回复 I'm looking forward to your reply。",
+    "example": "例句 I'm writing to invite you to the party，开门见山点明写信目的，是开头常用句型。",
+    "tip": "开头点目的、结尾表期待，首尾呼应。"
+  },
+  "0|5|k|3": {
+    "explain": "通知格式：标题 Notice 居中，正文说明时间、地点、活动内容，落款署名右下。正文常用一般将来时。",
+    "example": "Notice / There will be a lecture on Friday afternoon in the hall. / Students' Union，三部分齐全。",
+    "tip": "通知写清时间地点活动三要素，标题落款不能少。"
+  },
+  "0|5|k|4": {
+    "explain": "应用文三段式：开头点明目的、中间展开要点、结尾表达期望或感谢。结构清晰是高分基础，要点一个不能漏。",
+    "example": "建议信开头 I'm writing to give you some advice，中间分条建议，结尾表达期望，三段各司其职。",
+    "tip": "开头目的、中间要点、结尾期望。"
+  },
+  "0|5|k|5": {
+    "explain": "连接词让行文连贯：first of all 首先、besides 此外、in addition 另外、in a word 总之，避免简单句堆砌。",
+    "example": "例句 First of all, you should make a plan. Besides, practice makes perfect，层次分明。",
+    "tip": "每条要点前加连接词，递进补充总结轮流用。"
+  },
+  "0|5|d|0": {
+    "explain": "格式错误是低分主因：称呼缺失、署名位置错误、日期不规范。对策是背熟各类应用文格式模板，考场上逐项检查。",
+    "example": "书信漏写 Yours sincerely 或署名写在左边，都会直接扣分，写后逐项核对。",
+    "tip": "写完对照格式清单检查称呼、结束语、署名。"
+  },
+  "0|5|d|1": {
+    "explain": "内容要点遗漏导致失分，因为评分先看要点覆盖。对策是动笔前列提纲，逐条落实，写完对照题目检查。",
+    "example": "邀请信要求说明时间、地点、活动，提纲先列出这三点，正文逐一展开，写完后对照核验。",
+    "tip": "动笔前列提纲、写完后对题目核要点。"
+  },
+  "0|5|d|2": {
+    "explain": "中式英语是逐词翻译的产物，如「我非常高兴」写成 I very happy。对策是避免逐词翻译，用学过的地道句型表达。",
+    "example": "正确表达 I am very happy，不是 I very happy；我非常喜欢是 I like it very much。",
+    "tip": "写句子先检查主谓齐全，be 动词不能缺。"
+  },
+  "0|5|d|3": {
+    "explain": "书信常用一般现在时与一般将来时：描述现状用现在时，表达计划用将来时。全文时态人称必须一致。",
+    "example": "全文用 I 写信，中途切换人称就混乱；I will come 与 I came 混用也需统一。",
+    "tip": "写完整篇通读，人称时态全文一致。"
+  },
+  "0|5|d|4": {
+    "explain": "全是简单句显得语言单调，影响得分。学会用连接词（and、but、so）与从句整合句子，让行文有层次。",
+    "example": "He was tired. He kept working 可整合为 Although he was tired, he kept working。",
+    "tip": "用连接词和从句合并相邻简单句。"
+  },
+  "0|5|e|0": {
+    "explain": "高考应用文以书信为主：建议信、邀请信、申请信、道歉信。每种书信备一个模板，掌握开头结尾句型与要点展开方式。",
+    "tip": "五种书信各背一个模板，首尾句型通用。"
+  },
+  "0|5|e|1": {
+    "explain": "评分看内容要点是否齐全、语言是否准确、篇章是否连贯三方面，三者权重相当，缺一不可。",
+    "tip": "先保要点，再求语言准确，最后保连贯。"
+  },
+  "0|5|e|2": {
+    "explain": "阅卷快速评分，开头结尾句型是亮点：I'm writing to... 开门见山，I'm looking forward to your reply 得体收尾。",
+    "tip": "背熟开头点目的、结尾表期待两套万能句。"
+  },
+  "0|5|e|3": {
+    "explain": "高考应用文约 80~100 词，超出或不足均扣分。写作时估算字数，要点齐全前提下控制篇幅。",
+    "tip": "按要点平均分配字数，写完数字数。"
+  },
+  "1|0|k|0": {
+    "explain": "非谓语动词包括不定式、动名词、分词，不能单独作谓语，可作主语、宾语、定语、状语、补语。口诀「一句一谓语，其余变非谓语」。",
+    "example": "例句 I want to learn English well，want 是谓语，learn 用不定式 to learn 作宾语。",
+    "tip": "一句一谓语，出现多个动词时其余必为非谓语。"
+  },
+  "1|0|k|1": {
+    "explain": "不定式 to do 表目的和将来，如 I want to learn English well 中 to learn 表想要去学。不定式还可作主语、定语等。",
+    "example": "例句 I got up early to catch the bus，to catch 表目的「为了赶车」。",
+    "tip": "表目的优先想 to do，句中找 to 开头的状语。"
+  },
+  "1|0|k|2": {
+    "explain": "动名词 doing 作主语表习惯性动作，谓语用单数，如 Reading aloud is important。泛指习惯用 doing，具体某次用 to do。",
+    "example": "例句 Reading aloud is important，Reading 作主语表习惯性行为，谓语 is 用单数。",
+    "tip": "习惯性动作用 doing 作主语，谓语用单数。"
+  },
+  "1|0|k|3": {
+    "explain": "现在分词 doing 表主动进行，过去分词 done 表被动完成，如 a broken cup。判定看名词与动词的主被动关系。",
+    "example": "例句 a broken cup 中 cup 被打碎用 broken；a crying baby 中 baby 在哭用 crying。",
+    "tip": "定语中主动用 doing、被动用 done。"
+  },
+  "1|0|k|4": {
+    "explain": "部分动词只接不定式作宾语：want、hope、decide、agree、manage、refuse 等，表想要、打算去做，需分类记忆。",
+    "example": "例句 He decided to give up smoking，decide 后接 to give up 不定式。",
+    "tip": "want、hope、decide 等只接 to do，成组记忆。"
+  },
+  "1|0|k|5": {
+    "explain": "另一类动词只接动名词作宾语：enjoy、finish、avoid、mind、keep、suggest 等。口诀「喜欢享受避免介意，统统接 doing」。",
+    "example": "例句 Would you mind opening the window?，mind 后接动名词 opening。",
+    "tip": "enjoy、finish、avoid、mind 后接 doing。"
+  },
+  "1|0|k|6": {
+    "explain": "remember/forget 接 doing 表记得做过，接 to do 表记得要去做，区别在动作是否发生。已发生用 doing，未发生用 to do。",
+    "example": "例句 Remember to lock the door 是记得要锁门；I remember locking the door 是记得锁过门。",
+    "tip": "已做用 doing、未做用 to do。"
+  },
+  "1|0|d|0": {
+    "explain": "remember、forget、stop、regret 接 doing 与 to do 含义不同：stop doing 停止做，stop to do 停下来去做另一件事。",
+    "example": "例句 He stopped talking 是停止说话；He stopped to talk 是停下来去说话，语义相反。",
+    "tip": "四组词 doing/to do 含义相反，先看动作发生与否。"
+  },
+  "1|0|d|1": {
+    "explain": "分词作状语表伴随、原因、时间，不定式作状语表目的。表「为了……」用 to do，其余伴随原因用分词。",
+    "example": "例句 Seeing the teacher, he stood up 表时间；He stood up to greet the teacher 表目的。",
+    "tip": "表目的用 to do，表伴随原因用分词。"
+  },
+  "1|0|d|2": {
+    "explain": "动名词与不定式作主语：动名词表泛指、习惯性动作，不定式表具体某一次的动作，如 Reading is fun 与 To read this book is my task。",
+    "example": "例句 Swimming is good exercise 泛指游泳；To swim across the river is dangerous 指具体这次。",
+    "tip": "泛指习惯用 doing，具体某次用 to do。"
+  },
+  "1|0|d|3": {
+    "explain": "非谓语的逻辑主语通常是句子主语，先找逻辑主语再判主被动：动作由主语发出用 doing，主语承受用 done。",
+    "example": "例句 Seeing the film, he cried 用 doing；Seen from the hill, the city is beautiful 用 done。",
+    "tip": "先找逻辑主语，再定主动还是被动。"
+  },
+  "1|0|d|4": {
+    "explain": "感官动词 see、hear、feel 后接 doing 表正在进行，接原形表全过程。doing 强调进行，原形强调动作完整发生。",
+    "example": "例句 I heard her singing 是听到正在唱；I heard her sing a song 是听到唱完一首。",
+    "tip": "感官动词后 doing 表进行，原形表全过程。"
+  },
+  "1|0|e|0": {
+    "explain": "语法填空常考非谓语作状语、定语、宾语。作状语看逻辑主语主被动，作定语看与名词关系，作宾语看动词搭配。",
+    "tip": "先判成分再选形式：状语看逻辑主语、定语看名词、宾语看动词。"
+  },
+  "1|0|e|1": {
+    "explain": "动名词与不定式作宾语的区别是高频考点，关键在动词分类：enjoy 类接 doing，decide 类接 to do，remember 类双接看含义。",
+    "tip": "动词分类记牢：接 doing 一组、接 to do 一组、双接一组。"
+  },
+  "1|0|e|2": {
+    "explain": "分词作定语：现在分词表主动进行，过去分词表被动完成。先判断名词与动词的关系再选形式。",
+    "tip": "定语中主动用 doing、被动用 done。"
+  },
+  "1|0|e|3": {
+    "explain": "改错常见谓语与非谓语混用：句中已有谓语动词时，其他动词必须用非谓语。先找句中谓语再判形式。",
+    "tip": "先找谓语动词，多余动词必为非谓语。"
+  },
+  "1|1|k|0": {
+    "explain": "名词性从句分四类：主语从句、宾语从句、表语从句、同位语从句。判断看从句在句中的位置与功能。",
+    "example": "例句 That he will come is certain 是主语从句；I know that he will come 是宾语从句。",
+    "tip": "从句在主语位置是主语从句，宾语位置是宾语从句。"
+  },
+  "1|1|k|1": {
+    "explain": "that 引导宾语从句可省略，引导主语从句、表语从句、同位语从句一般不省略，如 I know (that) he is right 中 that 可省。",
+    "example": "例句 I think (that) he is right 中 that 可省；That he is right is clear 中 that 不可省。",
+    "tip": "宾语从句 that 可省，其余不省。"
+  },
+  "1|1|k|2": {
+    "explain": "宾语从句一律用陈述语序，即使由疑问词引导：I don't know where he lives 不能说 where does he live。",
+    "example": "例句 I don't know where he lives，疑问词后仍按陈述语序 he lives。",
+    "tip": "疑问词引导宾语从句时，从句内部仍用陈述语序。"
+  },
+  "1|1|k|3": {
+    "explain": "主语从句较长时用 it 作形式主语，真正的主语从句放后面：It is certain that he will come，it 不可省略。",
+    "example": "例句 It is certain that he will come，it 是形式主语，真正主语放句尾。",
+    "tip": "It is + adj + that 从句中 it 是形式主语，写作加分句。"
+  },
+  "1|1|k|4": {
+    "explain": "whether 与 if 都可引导宾语从句表是否，但介词后、不定式前、主语从句、表语从句中只能用 whether。",
+    "example": "例句 I don't know whether to go，不定式前只能用 whether；Whether he will come is unknown 同样。",
+    "tip": "介词后、不定式前、主语表语从句只用 whether。"
+  },
+  "1|1|k|5": {
+    "explain": "what 引导名词性从句表「……的东西」，在从句中作成分：What he said is true 中 what 作宾语。区别于无词义的 that。",
+    "example": "例句 What he said is true，what 意为他说的话，在从句中作 said 的宾语。",
+    "tip": "what 表……的东西且在从句中作成分。"
+  },
+  "1|1|k|6": {
+    "explain": "reason 作主语时表语从句用 that 引导而不用 because：The reason is that he is ill，reason 与 because 语义重复。",
+    "example": "例句 The reason why he was late is that he missed the bus，表语从句用 that。",
+    "tip": "The reason is that 固定搭配，不用 because。"
+  },
+  "1|1|d|0": {
+    "explain": "that 与 what 的区分：that 无词义、不作成分；what 有词义且在从句中作成分。还原从句，缺成分用 what，不缺用 that。",
+    "example": "例句 What he said is true 中 what 作宾语；That he said nothing is strange 中 that 不作成分。",
+    "tip": "从句缺成分用 what，不缺用 that。"
+  },
+  "1|1|d|1": {
+    "explain": "whether 与 if 的选用：宾语从句可互换，但介词后、不定式前、主语从句、表语从句只能用 whether，whether 后可接 or not。",
+    "example": "例句 It depends on whether it will rain，介词 on 后只能用 whether 不能用 if。",
+    "tip": "介词后、不定式前、主语表语从句只用 whether。"
+  },
+  "1|1|d|2": {
+    "explain": "宾语从句语序常错：疑问词引导时仍须用陈述语序，如 where he lives、what he wants，疑问词只是连接词。",
+    "example": "错误 I don't know where does he live，正确应为 I don't know where he lives。",
+    "tip": "宾语从句永远陈述语序，疑问词后主谓不倒装。"
+  },
+  "1|1|d|3": {
+    "explain": "同位语从句与定语从句易混：that 在同位语从句中不作成分、解释名词内容，在定语从句中作成分。",
+    "example": "例句 The news that he won is true 中 that 不作成分是同位语；The news that he told me 中 that 作宾语是定语。",
+    "tip": "that 作成分是定语从句，不作成分是同位语从句。"
+  },
+  "1|1|d|4": {
+    "explain": "主从句时态呼应：主句为过去时，从句用相应的过去时态；客观真理不受影响仍用一般现在时。",
+    "example": "例句 He said that he had finished the work，主句过去时，从句用过去完成时呼应。",
+    "tip": "主句过去时从句相应过去时，客观真理例外。"
+  },
+  "1|1|e|0": {
+    "explain": "语法填空常考 what、that、whether 等连接词：that 不作成分、what 作成分、whether 表是否。先看从句缺不缺成分。",
+    "tip": "缺成分选 what，不缺选 that，表是否用 whether。"
+  },
+  "1|1|e|1": {
+    "explain": "宾语从句语序为改错高频考点，常见错误是把疑问语序混入从句。见到疑问词检查后面是否用陈述语序。",
+    "tip": "见到疑问词先查从句语序，主谓不倒装才对。"
+  },
+  "1|1|e|2": {
+    "explain": "It is + adj + that 从句是写作加分句型：It is important that...，it 作形式主语避免头重脚轻。",
+    "tip": "写作用 It is important that 句型加分。"
+  },
+  "1|1|e|3": {
+    "explain": "同位语从句常与 news、fact、idea、suggestion 等抽象名词连用，解释其内容，that 不可省略。",
+    "example": "例句 The fact that he failed the exam surprised us，that 解释 fact 的内容且不可省略。",
+    "tip": "news、fact、idea 后接 that 从句多为同位语从句。"
+  },
+  "1|2|k|0": {
+    "explain": "主谓一致三原则：语法一致（主语单数谓语单数）、意义一致（按实际意义）、就近一致（谓语与最近主语一致）。",
+    "example": "例句 The team is strong 强调整体用单数；The team are arguing 强调成员用复数，是意义一致。",
+    "tip": "常规看语法一致，特殊结构看就近，集合名词看意义。"
+  },
+  "1|2|k|1": {
+    "explain": "单数名词、不可数名词作主语谓语用单数，复数名词作主语谓语用复数。不可数名词永远用单数谓语。",
+    "example": "例句 The water is clean 用 is；The apples are fresh 用 are，主语的数决定谓语的数。",
+    "tip": "不可数名词、单数名词谓语用单数。"
+  },
+  "1|2|k|2": {
+    "explain": "each、every、either、neither 修饰或作主语时谓语用单数：Each student has a book，强调每一个。",
+    "example": "例句 Each of the students has a book，each 作主语谓语用 has，students 是复数也不影响。",
+    "tip": "each、every、either、neither 后谓语用单数。"
+  },
+  "1|2|k|3": {
+    "explain": "either...or、neither...nor、not only...but also 连接主语时谓语就近一致，与最近的主语保持一致。",
+    "example": "例句 Not only the students but also the teacher was moved，最近主语是 teacher 单数，谓语用 was。",
+    "tip": "or、nor、but also 连接主语看最近的那个。"
+  },
+  "1|2|k|4": {
+    "explain": "主语后接 with、together with、as well as 等短语时，谓语与主语本身一致，不受插入语影响。",
+    "example": "例句 The teacher together with his students is going to the museum，主语是 teacher 单数用 is。",
+    "tip": "with、as well as 是插入语，谓语看前面的主语。"
+  },
+  "1|2|k|5": {
+    "explain": "the number of 表数量谓语用单数，a number of 表许多谓语用复数。区别在冠词：the 用单数，a 用复数。",
+    "example": "例句 The number of students is increasing 用单数；A number of students are playing 用复数。",
+    "tip": "the number of 用单数，a number of 用复数。"
+  },
+  "1|2|k|6": {
+    "explain": "不定式、动名词作主语表一件事，谓语用单数：To learn English well takes time、Reading is fun。",
+    "example": "例句 To learn English well takes time，不定式短语作主语，谓语 takes 用单数。",
+    "tip": "不定式、动名词短语作主语，谓语一律用单数。"
+  },
+  "1|2|d|0": {
+    "explain": "with、together with、as well as 等插入语不影响谓语数，谓语始终与真正的主语一致。误判为就近原则是常见错误。",
+    "example": "例句 My brother, as well as his friends, likes football，主语是 brother 单数，谓语用 likes。",
+    "tip": "划掉插入语再看主语，插入语不是主语。"
+  },
+  "1|2|d|1": {
+    "explain": "集合名词 family、team、class 强调整体用单数，强调成员用复数，取决于语境。",
+    "example": "例句 My family is big 强调整体用单数；My family are watching TV 强调成员用复数。",
+    "tip": "集合名词看语境：整体用单数，成员用复数。"
+  },
+  "1|2|d|2": {
+    "explain": "百分数、分数 + of + 名词作主语时，谓语与 of 后的名词一致：Two thirds of the work is done 中 work 不可数用单数。",
+    "example": "例句 Two thirds of the work is done 用单数；Two thirds of the students are girls 用复数。",
+    "tip": "分数 of 后面名词定谓语，单数用单数、复数用复数。"
+  },
+  "1|2|d|3": {
+    "explain": "关系代词作从句主语时，谓语与先行词一致。one of 用复数，the only one of 用单数。",
+    "example": "例句 He is one of the students who were praised 用 were；the only one who was praised 用 was。",
+    "tip": "one of 用复数、the only one of 用单数。"
+  },
+  "1|2|d|4": {
+    "explain": "就近一致只用于 or、nor、but also 连接的结构，其他情况用语法一致，两者混用是常见错误。",
+    "example": "例句 Either you or he is wrong 就近用 is；with 结构按语法一致处理，规则不同。",
+    "tip": "or 连接就近，with 插入不影响，其余语法一致。"
+  },
+  "1|2|e|0": {
+    "explain": "语法填空常考主谓一致，关键是找准主语中心词：去掉 of 短语、插入语、定语从句后，剩下的核心名词定单复数。",
+    "tip": "找主语中心词，划掉修饰成分再定谓语数。"
+  },
+  "1|2|e|1": {
+    "explain": "either...or 等就近原则结构是改错常考点。见到 or、nor、but also 连接的并列主语，检查谓语是否与最近的主语一致。",
+    "tip": "见到 or/nor/but also 先查就近一致。"
+  },
+  "1|2|e|2": {
+    "explain": "定语从句中关系代词作主语时，谓语与先行词一致是高频考点，one of 与 the only one of 结构一个复数一个单数。",
+    "tip": "one of 用复数、the only one of 用单数。"
+  },
+  "1|2|e|3": {
+    "explain": "主谓一致常与时态结合考查：既要选对时态，又要保证主谓一致，先定时态再核对谓语形式。",
+    "tip": "先定时态再核对一致，两步都查才得分。"
+  },
+  "1|3|k|0": {
+    "explain": "完形填空先通读全文把握大意，再逐题选择，切忌边读边填。通读时跳过空格，看文章讲什么故事、什么主题。",
+    "example": "通读发现文章讲一次旅行，选项涉及 go、visit、arrive 时，围绕旅行主题选择更有把握。",
+    "tip": "第一遍通读不填题，第二遍再逐题选择。"
+  },
+  "1|3|k|1": {
+    "explain": "首句通常不设空，是理解全文的钥匙：交代人物、时间、地点、背景。精读首句确定基调与主线。",
+    "example": "首句 I was walking home from school when...，交代人物 I、场景放学回家，后文围绕此展开。",
+    "tip": "精读首句定人物、时间、背景三要素。"
+  },
+  "1|3|k|2": {
+    "explain": "上下文逻辑是完形的核心：因果、转折、递进、对比关系。利用逻辑词和句间关系推断答案。",
+    "example": "前句 He was very tired，后句 but 提示转折，应填与累相反的积极信息。",
+    "tip": "圈出逻辑连接词，转折因果递进定答案方向。"
+  },
+  "1|3|k|3": {
+    "explain": "词汇复现指同一词或同义词在上下文中反复出现，可互相印证答案。找到上文出现的原词或同义表达。",
+    "example": "上文出现 gift，下文选项有 present（同义词），结合语境确认答案，即同义复现。",
+    "tip": "上下文找原词复现、同义复现，互相印证。"
+  },
+  "1|3|k|4": {
+    "explain": "固定搭配与短语辨析可直接得分：look forward to、take part in 等，看到搭配线索直接选，平时积累高频短语。",
+    "example": "例句 He looks forward to the party，look forward to 固定搭配表期待。",
+    "tip": "积累高频短语，见到搭配线索直接选。"
+  },
+  "1|3|k|5": {
+    "explain": "先易后难：先做有把握的题，利用已选答案帮助解决难题。已选答案构成上下文语境，为剩余空格提供线索。",
+    "example": "先填把握大的动词题，这些答案透露故事发展，再回头解决难的近义词辨析题，正确率更高。",
+    "tip": "先做会的再做难的，已选答案就是线索。"
+  },
+  "1|3|k|6": {
+    "explain": "完形侧重动词、名词、形容词、副词辨析：动词看动作先后，名词看指代，形容词副词看修饰与感情色彩。",
+    "example": "形容高兴可用 happy、delighted、thrilled，程度递增，按语境需要的强度选择。",
+    "tip": "先看感情色彩褒贬，再看词义轻重。"
+  },
+  "1|3|d|0": {
+    "explain": "近义词辨析难：look、watch、see、observe 都有看义，但 look 主动看、watch 注视动态、see 看见结果。",
+    "example": "例句 I saw him enter the room 表看见结果；I watched him play 表注视过程。",
+    "tip": "近义词记差异核心：see 结果、watch 过程。"
+  },
+  "1|3|d|1": {
+    "explain": "脱离语境的词义选择易错：孤立看每个选项都对，联系上下文感情色彩才能确定，选项必须代入上下文验证。",
+    "example": "主人公遇到挫折，选项 happy、sad、calm 中，结合他失败了应选 sad。",
+    "tip": "每个选项代入上下文验证，情感一致才选。"
+  },
+  "1|3|d|2": {
+    "explain": "however 转折、therefore 因果、besides 递进，逻辑连接词需分析句间关系：意思相反用转折，前因后果用因果。",
+    "example": "前句 He studied hard，后句 he failed 用 however；若 he passed 则用 therefore。",
+    "tip": "先比较前后句意思，同向递进因果，反向转折。"
+  },
+  "1|3|d|3": {
+    "explain": "复现与同义替换识别困难，需平时积累同义词组：happy 与 pleased、look after 与 take care of。",
+    "example": "上文 take care of，下文选项 look after 是同义替换，识别即可确认答案。",
+    "tip": "平时积累同义词组，考试见替换能反应。"
+  },
+  "1|3|d|4": {
+    "explain": "首尾呼应型题目需读完文章才能确定，如结尾回顾开头的主题。不要过早下结论，通读后再回头确认。",
+    "example": "开头说 I learned a lesson，结尾再提 lesson，中间空格填与 lesson 相关的词。",
+    "tip": "主题、教训、感悟类空格通读全文后再填。"
+  },
+  "1|3|e|0": {
+    "explain": "完形以记叙文为主，考查故事发展与人物情感变化。把握故事线：起因、发展、高潮、结局。",
+    "tip": "先理清故事线，情感变化是选词的线索。"
+  },
+  "1|3|e|1": {
+    "explain": "动词辨析与名词辨析占比大：动词注意动作先后与逻辑顺序，名词注意指代对象与上下文对应。",
+    "tip": "动词排先后、名词对指代，按逻辑顺序选词。"
+  },
+  "1|3|e|2": {
+    "explain": "逻辑关系词为常考点，常设在句首或句间。解题先判断前后句的逻辑关系，再选对应连接词。",
+    "tip": "逻辑词题先判关系：相反转折、因果 therefore。"
+  },
+  "1|3|e|3": {
+    "explain": "近年真题重视词汇活用，熟词生义需重点积累：address 处理、charge 收费、cover 报道。",
+    "tip": "阅读中遇熟词生义立即记录，考试见到不慌。"
+  },
+  "1|4|k|0": {
+    "explain": "七选五先通读全文了解文章结构与大意，再看选项。关注段落划分与首尾句，为选句建立框架。",
+    "tip": "先通读抓结构，了解每段讲什么。"
+  },
+  "1|4|k|1": {
+    "explain": "段首题多为段落主题句，需概括该段大意。先读该段其他句子归纳主题，再找统领全段的选项。",
+    "example": "该段讲运动的好处，段首应选 Exercise has many benefits 这类主题句。",
+    "tip": "段首题概括该段大意，选项统领全段。"
+  },
+  "1|4|k|2": {
+    "explain": "段尾题总结上文或承上启下，注意与下段开头的衔接。总结句概括该段，过渡句呼应下段首句。",
+    "example": "段尾填总结句，若下段开头是 Another advantage，段尾总结本段优势。",
+    "tip": "段尾题先总结本段，再看与下段衔接。"
+  },
+  "1|4|k|3": {
+    "explain": "段中题根据上下文逻辑与指代关系选择：选项与前后句语义连贯、逻辑一致，注意代词与连接词呼应。",
+    "example": "空格前 First, ...，空格后 Finally, ...，中间应填 Second, ... 开头的句子。",
+    "tip": "段中题看前后句逻辑与指代，衔接自然才选。"
+  },
+  "1|4|k|4": {
+    "explain": "代词线索：选项中的 it、they、this、these 必须指代上文内容。找代词指代对象，指代成立才选。",
+    "example": "选项 They are easy to carry 中的 they 指上文提到的某物，指代成立可考虑。",
+    "tip": "选项代词先找指代对象，指代不成立即排除。"
+  },
+  "1|4|k|5": {
+    "explain": "逻辑连接词揭示选项与上下文的关系：however 转折、therefore 因果、for example 举例、in addition 递进。",
+    "example": "前句说运动重要，选项 For example, swimming is good for health 表举例。",
+    "tip": "连接词定逻辑方向：转折、因果、举例、递进。"
+  },
+  "1|4|k|6": {
+    "explain": "词汇复现与同义替换：选项与上下文出现相同或相关词汇，说明话题一致。原词、同义词、上下义词都是线索。",
+    "example": "上文 pollution，选项出现 environment 等相关词，话题关联提示位置。",
+    "tip": "找选项与上下文的相同相关词汇，话题一致优先。"
+  },
+  "1|4|d|0": {
+    "explain": "干扰项表面看似合理但逻辑不连贯。把选项代入空格，检查与前后句的逻辑、指代、话题是否全部吻合。",
+    "example": "两个选项都提 exercise，一个与主题句重复，一个承接下文，代入比较衔接紧密度。",
+    "tip": "代入验证逻辑与指代，有一处不通就排除。"
+  },
+  "1|4|d|1": {
+    "explain": "代词指代判断难，需明确选项代词指代的对象，可能要跨句、跨段寻找，单复数人称一致才成立。",
+    "example": "选项 These problems can be solved 中的 problems 需在上文找到，找不到则指代落空。",
+    "tip": "代词找前文指代对象，数、人称、内容都要对上。"
+  },
+  "1|4|d|2": {
+    "explain": "转折与递进区分难：前后意思相反用转折，同向补充用递进。比较前后句语义方向，别只看连接词。",
+    "example": "前句跑步累、后句跑步有益方向不同用 however；补充跑步省钱同向用 besides。",
+    "tip": "比较前后句语义方向，相反转折、同向递进。"
+  },
+  "1|4|d|3": {
+    "explain": "段落主题句与细节句混淆：主题句概括全段，细节句支撑主题。段首空选主题句，段中空选细节句。",
+    "example": "段首空选概括句 The Internet has changed our lives，段中空选具体例证。",
+    "tip": "段首选概括句、段中选细节句，位置定功能。"
+  },
+  "1|4|d|4": {
+    "explain": "两个相似选项并存时，比较与上下文的衔接紧密程度：逻辑、指代、词汇复现谁更吻合选谁。",
+    "example": "两选项都与环保相关，一个代词指代明确、一个指代模糊，选指代明确、衔接紧密的那个。",
+    "tip": "相似选项比衔接：逻辑、指代、复现三方面。"
+  },
+  "1|4|e|0": {
+    "explain": "七选五两篇体裁不同：一篇说明文、一篇记叙文或应用文。说明文注意逻辑结构，记叙文注意时间线。",
+    "tip": "先判体裁：说明文看结构逻辑，记叙文看时间线。"
+  },
+  "1|4|e|1": {
+    "explain": "段首主题句、段尾总结句是高频设空位置。段首空选概括句，段尾空选总结或过渡句，功能要对应。",
+    "tip": "段首空选主题句、段尾空选总结句。"
+  },
+  "1|4|e|2": {
+    "explain": "转折、因果、递进逻辑词与代词指代是解题关键线索：连接词定方向、代词定指代，结合使用。",
+    "tip": "先圈选项连接词和代词，再与上下文对应。"
+  },
+  "1|4|e|3": {
+    "explain": "答题后回读检查全文，确保语义与逻辑通顺连贯：把所选句子代入原文通读一遍，不通顺立即调整。",
+    "tip": "全部填完后整体回读一遍，验证连贯性。"
+  },
+  "1|5|k|0": {
+    "explain": "读后续写要求阅读所给材料后，根据内容与段首语续写两段。先读透原文，把握人物、情节、伏笔。",
+    "example": "原文讲主人公丢失钱包的故事，续写两段：第一段写寻找钱包的过程，第二段写结局与感悟。",
+    "tip": "先读透原文再动笔，内容基于原文情节。"
+  },
+  "1|5|k|1": {
+    "explain": "原文以记叙文为主，注意人物、情节、冲突、情感线索，这些要素都是续写的素材来源，缺一不可。",
+    "tip": "读原文圈出人物、冲突、伏笔，续写时用上。"
+  },
+  "1|5|k|2": {
+    "explain": "续写应与原文风格一致：人称、时态（原文过去时续写也过去时）、语言风格统一，不能中途变换。",
+    "tip": "人称时态与原文保持一致，这是基本要求。"
+  },
+  "1|5|k|3": {
+    "explain": "每段首句已给出，是情节发展的提示。第一段首句引出第一段内容，第二段首句提示结局方向。",
+    "example": "第二段首句 The next morning, ... 提示时间跳到第二天早上，围绕第二天展开。",
+    "tip": "段首句是情节提示，顺着它展开，别跑题。"
+  },
+  "1|5|k|4": {
+    "explain": "情节设计注意与前文衔接：设置合理的冲突与解决，情节发展要符合逻辑，前文伏笔必须在续写中得到回应。",
+    "example": "前文提到主人公非常害怕水，续写中他勇敢地下水救了人，这就是回应伏笔的合理情节设计。",
+    "tip": "情节要回应前文伏笔，冲突解决合理。"
+  },
+  "1|5|k|5": {
+    "explain": "结尾可升华主题，表达情感或道理，与前文呼应，如经历挫折后明白坚持的意义。升华要自然，别生硬说教。",
+    "example": "结尾 From that day on, I understood the value of honesty，自然引出道理。",
+    "tip": "结尾呼应前文主题，别生硬说教。"
+  },
+  "1|5|k|6": {
+    "explain": "动作描写让情节生动：rush out of 冲出去、stare at 盯着、burst into tears 大哭，连续动作增强画面感。",
+    "example": "例句 He rushed out of the room, jumped on his bike and rode away，动作一气呵成。",
+    "tip": "积累动作短语，用动作链增强画面感。"
+  },
+  "1|5|d|0": {
+    "explain": "情节偏离原文：续写内容与原文逻辑不符。对策是紧扣前文伏笔展开，回读原文找可延续的线索。",
+    "example": "原文人物胆小谨慎，续写让他突然冒险就是情节偏离，应延续他的性格、逐步转变才合理。",
+    "tip": "回读原文找伏笔和性格线索，情节不脱离原文。"
+  },
+  "1|5|d|1": {
+    "explain": "语言表达受限源于词汇句型储备不足。积累动作、心理、环境描写句型，如心理描写用 felt nervous。",
+    "example": "描写紧张：My heart beat fast and my hands were shaking，比 I was nervous 生动。",
+    "tip": "建个人语料库，动作心理环境描写各备句型。"
+  },
+  "1|5|d|2": {
+    "explain": "两段字数差距过大影响结构分。对策是均衡分配：第一段写发展，第二段写高潮结局，各占一半。",
+    "tip": "两段篇幅均衡，写前规划内容分配。"
+  },
+  "1|5|d|3": {
+    "explain": "续写忘记保持与原文一致的时态人称是常见错误。动笔前确认原文时态与人称，写作中全程一致。",
+    "tip": "动笔前定下时态人称，写完通读检查。"
+  },
+  "1|5|d|4": {
+    "explain": "结尾生硬指突然结束缺乏呼应。对策是结尾与前文情节或主题呼应：点题或回扣开头场景，让故事完整闭环。",
+    "example": "开头提到一张旧照片，结尾再次提到照片并点明它的意义，首尾呼应，结尾自然不显突兀。",
+    "tip": "结尾回扣开头或主题，形成闭环。"
+  },
+  "1|5|e|0": {
+    "explain": "读后续写分值 25 分，是拉开差距的关键题型。每周练习续写，训练情节构思与语言表达。",
+    "tip": "续写分值高，每周固定练习，熟能生巧。"
+  },
+  "1|5|e|1": {
+    "explain": "评分看内容衔接、语言表达、结构完整三方面：与原文和段首句的衔接、词汇句型准确多样、两段比例与结尾。",
+    "tip": "衔接、语言、结构三方面并重，别只重华丽。"
+  },
+  "1|5|e|2": {
+    "explain": "所给段首语是情节发展的关键提示：第一段首句定内容，第二段首句定结局方向，必须紧密衔接。",
+    "tip": "紧扣段首语展开情节，偏离会严重失分。"
+  },
+  "1|5|e|3": {
+    "explain": "划线词或关键信息需在续写中合理体现，确保内容相关。把划线词自然融入情节，既保相关度又展词汇运用。",
+    "tip": "划线词自然融入续写，全部用上。"
+  },
+  "2|0|k|0": {
+    "explain": "非谓语三形式功能辨析：不定式表目的将来，动名词表习惯泛指，分词表状态。功能不同，选择看表达需要。",
+    "example": "例句 I plan to travel 表打算；Reading is fun 表泛指；The fallen leaves 表状态。",
+    "tip": "目的将来用 to do，习惯泛指用 doing，状态用分词。"
+  },
+  "2|0|k|1": {
+    "explain": "不定式作定语与被修饰词有动宾关系且主动时用 to do，如 something to eat；被动关系用 to be done。",
+    "example": "例句 I have something to eat，something 与 eat 是动宾关系且主动，用 to eat。",
+    "tip": "定语中主动用 to do、被动用 to be done。"
+  },
+  "2|0|k|2": {
+    "explain": "非谓语作状语时逻辑主语须与句子主语一致：主动用 doing，被动用 done。不一致时用独立主格。",
+    "example": "例句 Seeing the film, he cried，seeing 的逻辑主语是 he，主动关系用 doing。",
+    "tip": "非谓语状语看逻辑主语与句子主语是否一致。"
+  },
+  "2|0|k|3": {
+    "explain": "with + 宾语 + 宾补表伴随状态：with the light on、with the work done。宾补可为副词、分词、形容词等。",
+    "example": "例句 He slept with the window open，window 加形容词 open 表开着窗户睡觉。",
+    "tip": "with 复合结构表伴随，宾补形式多样。"
+  },
+  "2|0|k|4": {
+    "explain": "独立主格结构是名词或代词加非谓语作状语，逻辑主语与句子主语不同：Weather permitting, we will go out。",
+    "example": "例句 Weather permitting, we will go out，weather 是 permitting 的逻辑主语，与 we 不同。",
+    "tip": "逻辑主语与句子主语不同时，用独立主格。"
+  },
+  "2|0|k|5": {
+    "explain": "非谓语作宾补三类：ask sb to do、see sb doing、have sth done，宾补形式由谓语动词决定。",
+    "example": "例句 I had my hair cut，have sth done 表让别人做，hair 被剪是被动关系。",
+    "tip": "ask sb to do、see sb doing、have sth done 要分清。"
+  },
+  "2|0|k|6": {
+    "explain": "不定式完成式 to have done 表动作先于谓语发生：He seems to have finished the task，判断标准是动作先后。",
+    "example": "例句 He seems to have finished the task，finish 发生在 seem 之前，用完成式。",
+    "tip": "不定式动作先于谓语用 to have done。"
+  },
+  "2|0|d|0": {
+    "explain": "doing 与 done 作状语看与逻辑主语的主动被动关系：主动用 doing，被动用 done。",
+    "example": "例句 Given more time, I can do better，I 被给予时间用 given；Hearing the news 中 she 主动听用 doing。",
+    "tip": "先找逻辑主语，主动用 doing、被动用 done。"
+  },
+  "2|0|d|1": {
+    "explain": "having done 强调先于谓语且主动，done 表被动完成。having done 突出先后，done 突出被动。",
+    "example": "例句 Having finished the work, he left，finish 先于 leave 且主动，用 having finished。",
+    "tip": "主动强调先后用 having done，被动用 done。"
+  },
+  "2|0|d|2": {
+    "explain": "to be done 表将来被动，done 表完成被动：a meeting to be held 将要举行，a meeting held 已举行。",
+    "example": "例句 The problem to be discussed tomorrow 表将来；The problem discussed yesterday 表完成。",
+    "tip": "定语中将来被动用 to be done，完成用 done。"
+  },
+  "2|0|d|3": {
+    "explain": "逻辑主语与句子主语不一致时须用独立主格，结构是名词或代词加非谓语，相当于状语从句的简化。",
+    "example": "例句 The teacher came in, a book in his hand，a book 与 teacher 不同，用独立主格。",
+    "tip": "逻辑主语不同时用独立主格，名词在前。"
+  },
+  "2|0|d|4": {
+    "explain": "只接 doing 与只接 to do 的动词需分类强记：avoid、finish、enjoy 接 doing；decide、refuse、agree 接 to do。",
+    "example": "例句 He avoided making mistakes 接 doing；He decided to study abroad 接 to do。",
+    "tip": "avoid 类接 doing，decide 类接 to do，成组记忆。"
+  },
+  "2|0|e|0": {
+    "explain": "语法填空高频考点：非谓语作定语、状语、宾补时的形式选择。作定语看名词，作状语看逻辑主语，作宾补看动词。",
+    "tip": "三看：定语看名词、状语看逻辑主语、宾补看动词。"
+  },
+  "2|0|e|1": {
+    "explain": "非谓语与谓语辨析是解题关键：句中已有谓语动词时其他动词用非谓语，先找谓语再判形式。",
+    "tip": "先找谓语，多余动词必为非谓语。"
+  },
+  "2|0|e|2": {
+    "explain": "having done 表主动完成、having been done 表被动完成。判断逻辑主语与动作的主被动关系。",
+    "example": "例句 Having been told the news, she was excited，she 被告诉，被动用 having been told。",
+    "tip": "having done 主动、having been done 被动。"
+  },
+  "2|0|e|3": {
+    "explain": "非谓语在写作中可提升语言档次：分词状语替代状语从句、不定式表目的，注意正确性优先。",
+    "tip": "写作中用分词状语、不定式表目的，先保证正确。"
+  },
+  "2|1|k|0": {
+    "explain": "虚拟条件句三组形式：与现在相反从句用 did/were、主句用 would do；与过去相反从句用 had done、主句用 would have done。",
+    "example": "与现在相反：If I were you, I would accept it；与过去相反：If I had known, I would have come。",
+    "tip": "三组形式成对记忆：现在、过去、将来各一组。"
+  },
+  "2|1|k|1": {
+    "explain": "虚拟主句形式：现在用 would do，过去用 would have done，将来用 would do。would 可换 could、might。",
+    "example": "例句 If I had studied hard, I would have passed the exam，与过去相反，主句用 would have passed。",
+    "tip": "过去相反必用 would have done。"
+  },
+  "2|1|k|2": {
+    "explain": "wish 后从句用虚拟：对现在用过去式、对过去用 had done、对未来用 would do，时间不同形式不同。",
+    "example": "例句 I wish I had known the truth，对过去虚拟用 had known，表示可惜不知道。",
+    "tip": "wish 后看时间：现在过去式、过去 had done。"
+  },
+  "2|1|k|3": {
+    "explain": "if 虚拟条件句可省略 if，把 were、had、should 提前到句首：Had I known、Were I you。",
+    "example": "例句 Had I known the answer, I would have told you，等于 If I had known。",
+    "tip": "if 省略时 were/had/should 提前到句首。"
+  },
+  "2|1|k|4": {
+    "explain": "suggest、advise、require 等建议要求命令类动词后，宾语从句用 should do，should 可省略。",
+    "example": "例句 The teacher suggested that we (should) read more books，should 可省略。",
+    "tip": "建议要求命令类动词后从句用 should do。"
+  },
+  "2|1|k|5": {
+    "explain": "It is (high) time that 后用过去式或 should do，表该做某事的时候了，此时过去式并非真的过去。",
+    "example": "例句 It is high time that we took action，time that 后从句用过去式 took。",
+    "tip": "It is time that 后从句用过去式。"
+  },
+  "2|1|k|6": {
+    "explain": "never、hardly、not only 等否定词置于句首时部分倒装，助动词提前：Never have I seen such a sight。",
+    "example": "例句 Never have I seen such a beautiful place，never 在句首，have 提到主语前。",
+    "tip": "否定词在句首必倒装，助动词提前。"
+  },
+  "2|1|d|0": {
+    "explain": "虚拟条件句主从句时态搭配易错，三组形式需对应记忆：现在、过去、将来各配各的，别交叉混用。",
+    "example": "例句 If I had time, I would go 是现在；If I had had time, I would have gone 是过去。",
+    "tip": "三组形式对照记忆，先定时间再选形式。"
+  },
+  "2|1|d|1": {
+    "explain": "含蓄条件句用 without、but for 等介词短语隐含条件：Without your help, I couldn't have succeeded。",
+    "example": "例句 But for the rain, we would have finished the work，but for 表要不是。",
+    "tip": "见到 without、but for、otherwise 想含蓄条件。"
+  },
+  "2|1|d|2": {
+    "explain": "错综时间条件句条件与主句时间不一致，各自用对应时态：从句与过去相反、主句与现在相反。",
+    "example": "例句 If you had taken the medicine yesterday, you would be fine now，从句过去、主句现在。",
+    "tip": "条件句和主句的时间分别判断，各用各的时态。"
+  },
+  "2|1|d|3": {
+    "explain": "would rather 后用过去式表虚拟：I would rather you came tomorrow，接从句时动词用过去式。",
+    "example": "例句 I would rather you didn't tell him，would rather 后从句用过去式。",
+    "tip": "would rather 接从句时动词用过去式。"
+  },
+  "2|1|d|4": {
+    "explain": "部分倒装与完全倒装区分：否定词开头用部分倒装（助动词提前），方位副词 here、there 开头用完全倒装。",
+    "example": "例句 Here comes the bus 是完全倒装；Never have I seen it 是部分倒装。",
+    "tip": "here/there 开头完全倒装，否定词开头部分倒装。"
+  },
+  "2|1|e|0": {
+    "explain": "语法填空常考虚拟语气：suggest 后从句用 should do 且 should 可省略，直接填动词原形。",
+    "tip": "见到 suggest 类动词，从句动词用原形。"
+  },
+  "2|1|e|1": {
+    "explain": "if 省略倒装为高频考点：省略 if 后 were、had、should 提前，句首直接是这三个词加主语。",
+    "example": "例句 Were I you, I would apologize，句首 were 提前，等于 If I were you。",
+    "tip": "句首 were/had/should 开头即省略 if 的虚拟条件句。"
+  },
+  "2|1|e|2": {
+    "explain": "倒装与强调句结合考查：it is...that 强调句不属于倒装，去掉 It is...that 后句子完整。",
+    "tip": "强调句不是倒装，去掉 It is...that 验证。"
+  },
+  "2|1|e|3": {
+    "explain": "not only...but also 位于句首时 not only 部分倒装，but also 部分不倒装。",
+    "example": "例句 Not only did he learn English, but he also taught it，did 提前倒装。",
+    "tip": "not only 在句首时它所在分句倒装。"
+  },
+  "2|2|k|0": {
+    "explain": "长难句分析第一步找谓语动词，确定句子主干主谓宾。谓语动词带时态变化，非谓语不作谓语。",
+    "example": "例句 The man standing there is my teacher，is 是谓语，standing 是非谓语作定语。",
+    "tip": "先找带时态的谓语动词，主干立刻现形。"
+  },
+  "2|2|k|1": {
+    "explain": "从句识别看引导词与位置：that 引导名词性从句或定语从句，which/who 定语从句，because/although 状语从句。",
+    "example": "例句 the reason why he left 中 why 是定语从句；I know why he left 中 why 是宾语从句。",
+    "tip": "看引导词和从句位置，判断从句类型。"
+  },
+  "2|2|k|2": {
+    "explain": "分词短语、不定式短语作定语或状语：The boy sitting there 是分词定语，He worked hard to pass the exam 是不定式状语。",
+    "example": "例句 The book written by him is popular，written by him 作定语修饰 book。",
+    "tip": "非谓语短语作定语相当于定语从句。"
+  },
+  "2|2|k|3": {
+    "explain": "插入语是逗号隔开的解释说明成分，不影响句子主干：The man, I think, is honest。跳过插入语看主干。",
+    "example": "例句 This plan, in my opinion, is not practical，in my opinion 是插入语，删掉主干完整。",
+    "tip": "跳过逗号间的插入语，再看句子主干。"
+  },
+  "2|2|k|4": {
+    "explain": "并列结构由 and、but、or 连接：并列谓语、并列宾语、并列从句。先找连接词确定并列对象。",
+    "example": "例句 He opened the door, turned on the light and sat down，三个并列谓语共享主语。",
+    "tip": "找到连接词确定并列对象，结构对称。"
+  },
+  "2|2|k|5": {
+    "explain": "从句中主语与 be 动词可省略：when (it is) necessary、if (it is) possible，补全后再分析。",
+    "example": "例句 When (it is) necessary, you can ask for help，补全为 when it is necessary。",
+    "tip": "when/if/while 后直接跟形容词，补上 it is。"
+  },
+  "2|2|k|6": {
+    "explain": "切割法：先抓主干，再逐层分析修饰成分，化长为短。把长句切成主干、从句、短语若干块。",
+    "example": "长句切分：主干 The news surprised me，从句 that he won the prize，再整合理解。",
+    "tip": "长句切小块逐个理解，先主干后修饰。"
+  },
+  "2|2|d|0": {
+    "explain": "多从句嵌套需逐层剥离，先内后外：先找最内层从句，再逐层向外，每层确定引导词和功能。",
+    "example": "例句 I believe that the book which you lent me is interesting，先内层 which 再外层 that。",
+    "tip": "嵌套从句先内后外，逐层剥离分析。"
+  },
+  "2|2|d|1": {
+    "explain": "句中多个动词需判断哪个是真正的谓语：带时态变化的是谓语，其余按成分选非谓语形式，如 doing 或 done。",
+    "example": "例句 The man standing there talking to Mary is my uncle，is 是谓语，standing 和 talking 是非谓语。",
+    "tip": "带时态标志的是谓语，其余是非谓语。"
+  },
+  "2|2|d|2": {
+    "explain": "分隔结构指主语与谓语被插入语或从句分隔，影响主干识别。跳过分隔成分，把主谓连起来读。",
+    "example": "例句 The boy, who was sitting in the corner, suddenly stood up，跳过从句见主干。",
+    "tip": "主谓被分隔时，跳过中间成分连起来读。"
+  },
+  "2|2|d|3": {
+    "explain": "省略成分补全难，需根据语境还原省略的主语、谓语或连接词，如 when necessary 补全为 when it is necessary。",
+    "example": "例句 He likes tea and (he likes) coffee，and 后省略 he likes，补全结构对称。",
+    "tip": "省略处补全相同成分，结构立刻清晰。"
+  },
+  "2|2|d|4": {
+    "explain": "双重否定表肯定：not...until 直到……才、not uncommon 常见。否定转移：I don't think he is right 实际否定从句。",
+    "example": "例句 I don't think he will come，实际否定的是他会来，即我认为他不会来。",
+    "tip": "双重否定表肯定，I don't think 否定从句内容。"
+  },
+  "2|2|e|0": {
+    "explain": "阅读中长难句是细节题与推断题的障碍，分析能力决定得分。平时训练坚持找主干、剥修饰，考试遇到不慌。",
+    "tip": "阅读遇长句先找谓语定主干，再剥修饰。"
+  },
+  "2|2|e|1": {
+    "explain": "语法填空与改错常在长难句中设置考点，需准确切分结构才能判断填空或错误位置，先分析结构再答题。",
+    "tip": "长难句中答题先切结构，结构清楚考点自现。"
+  },
+  "2|2|e|2": {
+    "explain": "写作中适度使用从句与非谓语可提升档次，但正确性优先：用自己有把握的结构，别为追求高级而写错。",
+    "tip": "高级结构以正确为前提，没把握写简单句。"
+  },
+  "2|2|e|3": {
+    "explain": "语篇理解与翻译以长难句分析能力为基础：长句切分清楚，段落与篇章理解才准确，这是阅读能力的地基。",
+    "tip": "长难句分析是阅读地基，每天练一两个。"
+  },
+  "2|3|k|0": {
+    "explain": "主旨大意题通读首尾段与各段首句找主题句，注意高频词提示，主题句常在首段末句或末段首句。",
+    "example": "文章高频词是 recycling，各段讲回收的各个环节，主旨就是回收利用的完整过程。",
+    "tip": "圈高频词定主题，主题句常在首尾段。"
+  },
+  "2|3|k|1": {
+    "explain": "标题题须涵盖主旨、简洁新颖，是主旨的精炼版。排除以偏概全与过度宽泛的选项，选最能覆盖全文的。",
+    "example": "文章讲手机对生活的影响，标题 How Smartphones Change Our Lives 比 Smartphones 具体。",
+    "tip": "标题选涵盖全文又简洁的，宽泛片面排除。"
+  },
+  "2|3|k|2": {
+    "explain": "推理判断题依据原文事实推断作者态度与言外之意，注意委婉表达，推断不超原文信息范围。",
+    "example": "原文 He seldom goes out，可推断 He prefers staying at home，不能推断 He has no friends。",
+    "tip": "推断以原文为据、适度外推，别过度。"
+  },
+  "2|3|k|3": {
+    "explain": "作者态度题关注形容词、副词与情感色彩词：positive 积极、critical 批评、objective 客观、neutral 中立。",
+    "example": "原文 This is a wonderful invention，wonderful 是积极色彩词，态度为 positive。",
+    "tip": "圈态度色彩词定态度，别把人物观点当作者观点。"
+  },
+  "2|3|k|4": {
+    "explain": "词义猜测题利用定义、举例、对比、因果、构词法线索猜词，如定义线索 means、is。",
+    "example": "A mammal is an animal that feeds its young on milk，that 从句是定义，mammal 是哺乳动物。",
+    "tip": "先找线索类型，定义举例对比都是线索。"
+  },
+  "2|3|k|5": {
+    "explain": "篇章结构题考查段落功能与行文逻辑：承上启下、举例论证、总起、总结，分析段落与前后段的关系。",
+    "example": "某段开头说 Another reason is...，该段是举例论证，与前段并列。",
+    "tip": "段落功能看与前后段的关系，定作用。"
+  },
+  "2|3|k|6": {
+    "explain": "细节理解进阶注意数字、时间、地点的准确对应与计算：出发时间加路程时间等于到达时间，别被干扰数字迷惑。",
+    "example": "原文 The train leaves at 8:00 and the journey takes two hours，到达时间是 10:00。",
+    "tip": "数字题先看清单位关系，需计算就列式。"
+  },
+  "2|3|d|0": {
+    "explain": "推断题易过度推断：选项超出原文信息范围即错误。把握限度，只推一步，原文没提的信息都是过度推断。",
+    "example": "原文 He looked at the watch twice，可推断他在等时间，不能推断他迟到了。",
+    "tip": "推断只走一步，原文没有的信息一律不选。"
+  },
+  "2|3|d|1": {
+    "explain": "主旨题陷阱在选项概括过宽或过窄：过宽选项涵盖范围大于文章，过窄只涵盖部分段落，要比较选项与文章匹配度。",
+    "example": "文章只讲回收玻璃，选项讲回收利用就过宽，只讲玻璃回收的某个步骤就过窄，应选范围一致的。",
+    "tip": "比较选项涵盖范围，与文章一致才选。"
+  },
+  "2|3|d|2": {
+    "explain": "态度题难在客观描述与主观评价的区分：objective 只陈述事实，positive/critical 带主观色彩，看用词是否带感情色彩。",
+    "example": "全文罗列数据无评价词是 objective；出现 wonderful、terrible 才是主观态度。",
+    "tip": "无感情色彩词是客观，有褒贬词是主观。"
+  },
+  "2|3|d|3": {
+    "explain": "词义猜测受背景知识干扰：常识可能误导，需以语境线索为准，语境指向什么含义就以什么为准。",
+    "example": "常识中 coach 是教练，语境讲旅行时 coach 可能指长途客车，以语境为准。",
+    "tip": "猜词以语境线索为准，别被常识带偏。"
+  },
+  "2|3|d|4": {
+    "explain": "说明文与议论文结构复杂：说明文总分总、并列结构，议论文论点论据论证结构，把握段间逻辑。",
+    "example": "议论文首段提出论点，中间各段给出论据，末段总结观点，把握住这个框架就能理解全文。",
+    "tip": "先辨文体再套结构，把握段间逻辑。"
+  },
+  "2|3|e|0": {
+    "explain": "新高考阅读四篇中后两篇多设推断与主旨题，难度较大。答题时后两篇多留时间精读，仔细比对选项与原文。",
+    "tip": "后两篇多推断主旨题，留足时间。"
+  },
+  "2|3|e|1": {
+    "explain": "词义猜测题为必考题，每年至少一题。备考练习构词法与前缀后缀，考试遇生词按线索猜。",
+    "tip": "猜词题每年必考，构词加语境双保险。"
+  },
+  "2|3|e|2": {
+    "explain": "作者态度与写作目的题为常考题型：态度题看色彩词，目的题看文章类型，如说明文告知、议论文说服。",
+    "tip": "目的题看文体：告知、说服、邀请。"
+  },
+  "2|3|e|3": {
+    "explain": "干扰项设置规律：偷换概念、无中生有、过度推断需熟练识别。做题时逐项对照原文，识别干扰手法即排除。",
+    "tip": "识破干扰四手法：偷换、无中生有、过度推断、以偏概全。"
+  },
+  "2|4|k|0": {
+    "explain": "完形进阶从词义辨析上升到语篇逻辑与情感主线把握：看全篇情感走向，选词与整体基调一致。",
+    "tip": "进阶完形看全篇情感主线，选词与基调一致。"
+  },
+  "2|4|k|1": {
+    "explain": "把握记叙文主线：起因、发展、高潮、结局与情感变化，理清故事线后选项都与主线相关。",
+    "example": "故事线是迷路、寻找、获救、感悟，大部分选项的答案都围绕这条主线展开，先理清再做题。",
+    "tip": "先理故事线再做题，情节定方向。"
+  },
+  "2|4|k|2": {
+    "explain": "逻辑推理利用转折、递进、因果、让步关系推导答案：although 让步、so 因果、besides 递进。",
+    "example": "前句 He was tired，后句 although 提示让步，答案可能是 he kept working。",
+    "tip": "圈逻辑关系词，转折让步因果递进定方向。"
+  },
+  "2|4|k|3": {
+    "explain": "词汇辨析重点：say 说话内容、tell 告诉某人、speak 讲语言、talk 交谈，注意搭配差异。",
+    "example": "例句 He told me the news 接人；She speaks English 接语言；They are talking 表交谈。",
+    "tip": "say/tell/speak/talk 记搭配：tell 接人、speak 接语言。"
+  },
+  "2|4|k|4": {
+    "explain": "复现技巧四种：原词复现、同义复现、反义复现、上下义复现，复现词是答案的印证，找复现即找答案。",
+    "example": "上文出现 flower，下文选项出现 rose，flower 与 rose 是上下义关系，这种复现提示答案。",
+    "tip": "找四种复现关系，互相印证答案。"
+  },
+  "2|4|k|5": {
+    "explain": "文化背景知识帮助理解文章：了解西方节日、习俗、社交礼仪，判断选项更准确，如感恩节与火鸡的关联。",
+    "example": "文章讲 Christmas，涉及 gift、Santa Claus 等文化词，背景知识帮助理解。",
+    "tip": "积累西方文化常识，完形阅读都受益。"
+  },
+  "2|4|k|6": {
+    "explain": "排除法先排除不符合语境或语法错误的选项：语法排除搭配错误、词性不符，语境排除感情色彩不符。",
+    "example": "空格需要动词时先排除形容词选项，需要褒义词时先排除贬义词，缩小选择范围后再仔细选择。",
+    "tip": "先排除语法错、搭配错、色彩不符的。"
+  },
+  "2|4|d|0": {
+    "explain": "近义词细微差别难辨：glance 瞥一眼、stare 盯着看、glimpse 瞥见，表看的动作各有侧重。",
+    "example": "例句 He glanced at the clock 是匆匆一瞥；He stared at the picture 是盯着看。",
+    "tip": "近义词记差异核心：glance 短暂、stare 持久。"
+  },
+  "2|4|d|1": {
+    "explain": "情感色彩判断难在选项褒贬义与语境不符：故事积极选褒义词，遭遇挫折选贬义或中性词。",
+    "example": "主人公成功完成任务，选 proud、happy 等积极词，选 sad 就与色彩不符。",
+    "tip": "先定语境褒贬再选词，色彩不符即排除。"
+  },
+  "2|4|d|2": {
+    "explain": "逻辑关系复杂指多重逻辑叠加：一个空同时涉及转折与因果，需全面分析前后句的多重关系。",
+    "example": "前句说失败、后句说坚持并最终成功，这中间既有转折关系又有因果关系，是典型的多重逻辑叠加。",
+    "tip": "多重逻辑叠加时逐层分析，别只看一词。"
+  },
+  "2|4|d|3": {
+    "explain": "词汇活用指名词动用、形容词副词化等灵活用法：water 浇水、book 预订，活用词靠语境理解。",
+    "example": "例句 Please water the flowers，water 名词活用为动词表浇水。",
+    "tip": "熟词活用靠语境判断词性词义，别拘泥。"
+  },
+  "2|4|d|4": {
+    "explain": "固定搭配变形指动词短语加宾语后语义变化：come up 出现与 come up with 想出，注意整体含义。",
+    "example": "例句 He came up with a good idea 是想出主意；The plane took off 是起飞。",
+    "tip": "动词短语看整体，加宾语后含义可能大变。"
+  },
+  "2|4|e|0": {
+    "explain": "完形重点考查动词、名词、形容词的语境辨析：四个选项词义相近，靠语境区分，代入验证选最贴合者。",
+    "tip": "近义选项代入语境，最贴合故事发展的才选。"
+  },
+  "2|4|e|1": {
+    "explain": "上下文逻辑关系词与衔接手段为解题关键：连接词、代词指代、词汇复现都是衔接手段，识别即找到线索。",
+    "tip": "找衔接线索：连接词、代词、复现词。"
+  },
+  "2|4|e|2": {
+    "explain": "近年完形侧重考查人物情感与心理变化：选词要跟随情感曲线，留意情感转折点，转折处最易设题。",
+    "tip": "跟随人物情感曲线选词，转折处重点看。"
+  },
+  "2|4|e|3": {
+    "explain": "语法类选项减少、语义类选项增多，语篇理解能力要求提高：要整篇理解而非单句判断，平时多读多练。",
+    "tip": "完形考语篇理解，训练从句子走向篇章。"
+  },
+  "2|5|k|0": {
+    "explain": "续写结构四步：承接段首语、设置冲突、解决问题、升华主题，结构完整让故事有头有尾。",
+    "example": "第一段承接首句写冲突的发展，第二段写问题的解决与主题升华，结构完整，故事才有头有尾。",
+    "tip": "四步结构：承接、冲突、解决、升华。"
+  },
+  "2|5|k|1": {
+    "explain": "情节设计四要素：人物、事件、冲突、结果，确保合理连贯。人物延续原文性格，事件顺序符合逻辑。",
+    "tip": "四要素齐全，人物性格前后一致。"
+  },
+  "2|5|k|2": {
+    "explain": "心理描写用 nervous、excited、relieved 等词加句型表达内心活动，丰富人物形象。",
+    "example": "例句 I felt extremely nervous before the speech，nervous 直接点明心情。",
+    "tip": "心理描写用情绪词加细节，别只写紧张。"
+  },
+  "2|5|k|3": {
+    "explain": "动作链描写用连续动词短语刻画场景：如 he stood up, walked to the door and opened it，一气呵成画面感强。",
+    "example": "例句 He stood up, walked to the door and opened it，连续动作组成动作链。",
+    "tip": "连续动词加 and 连接，画面动起来。"
+  },
+  "2|5|k|4": {
+    "explain": "环境描写用天气、景物烘托人物心情：心情好时写阳光明媚，心情差时写阴雨连绵，环境与心情呼应。",
+    "example": "例句 The sun was shining brightly as she walked home happily，阳光烘托愉快。",
+    "tip": "环境描写烘托心情，好写晴天、差写阴雨。"
+  },
+  "2|5|k|5": {
+    "explain": "对话描写推动情节、展现性格，注意引语与表情动作结合，如 She said with a smile，表达更立体。",
+    "example": "例句 Don't worry, he said with a warm smile，对话配合动作更立体。",
+    "tip": "对话配表情动作，别只写干巴巴的引语。"
+  },
+  "2|5|k|6": {
+    "explain": "高级句式运用：非谓语、定语从句、倒装、强调句点缀提升档次，如 Not until then did I realize...。注意点缀而非堆砌。",
+    "example": "例句 Only then did I realize the importance of friendship，倒装句式点睛。",
+    "tip": "高级句式每段点缀一两句即可，别堆砌。"
+  },
+  "2|5|d|0": {
+    "explain": "情节与前文伏笔脱节需回读原文找可延续的线索：人物性格、物品、未解决的问题都是伏笔。",
+    "example": "原文中提到一把钥匙，续写的结尾让这把钥匙派上用场，伏笔得到回应，整个情节才完整。",
+    "tip": "回读原文圈伏笔，续写让伏笔有交代。"
+  },
+  "2|5|d|1": {
+    "explain": "语言与原文风格不符：原文语言简单则续写不宜过度华丽，先判断原文风格再定续写语言。",
+    "example": "原文是平实朴素的叙述，续写时堆砌高级句式反而显得突兀，应保持与原文一致的平实风格。",
+    "tip": "先看原文风格，简单原文配简单语言。"
+  },
+  "2|5|d|2": {
+    "explain": "两段衔接不自然指第二段开头与第一段结尾脱节。对策是第二段首句呼应第一段结尾情节，用时间地点人物承接。",
+    "example": "第一段结尾写主人公听到敲门声，第二段开头写他起身打开门看到来人，情节就这样自然衔接。",
+    "tip": "第二段开头承接第一段结尾，情节无缝连接。"
+  },
+  "2|5|d|3": {
+    "explain": "主题升华生硬指强行说教：结尾突然讲大道理，与情节无关。对策是让感悟自然融入情节，从故事中引出道理。",
+    "example": "帮助他人后自然感悟 Helping others makes me happy，道理来自经历。",
+    "tip": "道理从情节中自然引出，别空喊口号。"
+  },
+  "2|5|d|4": {
+    "explain": "时间逻辑混乱指续写事件顺序与原文时间线冲突。对策是以原文时间为基准，事件按先后排列，别跳回过去。",
+    "example": "原文结尾的时间是晚上，续写从第二天早上开始写起，时间线前后衔接清晰，不会产生冲突。",
+    "tip": "顺着原文时间线写，事件按先后排列。"
+  },
+  "2|5|e|0": {
+    "explain": "评分标准四方面：与原文衔接、内容丰富、语言准确多样、结构连贯。续写时四个方面兼顾，别只追求语言华丽。",
+    "tip": "衔接、内容、语言、结构四方面均衡。"
+  },
+  "2|5|e|1": {
+    "explain": "段首语为得分关键，必须紧密衔接展开情节：第一段首句定发展，第二段首句定结局，偏离首句会严重失分。",
+    "tip": "紧扣段首语写，偏离会严重失分。"
+  },
+  "2|5|e|2": {
+    "explain": "合理使用原文人物、事件信息可提高内容相关度：续写用上原文的人物、场景、细节，内容与原文血肉相连。",
+    "tip": "续写多用原文人物细节，内容相关度高。"
+  },
+  "2|5|e|3": {
+    "explain": "语言错误与篇幅不足是主要失分点：语法错误、拼写错误、两段字数不足都会扣分，写后要检查。",
+    "tip": "写后检查语法拼写，篇幅足量均衡。"
+  },
+  "2|6|k|0": {
+    "explain": "概要写作阅读短文后用自己的话概括要点，一般不超过 60 词。要点全、语言简、用自己的话重组。",
+    "example": "短文讲晨跑的好处，概要概括为 Running in the morning benefits our health。",
+    "tip": "概要三原则：要点全、语言简、自己话。"
+  },
+  "2|6|k|1": {
+    "explain": "概要三步法：找主题句（每段中心）、提炼要点（去掉例子细节）、重组表达（用自己话连接），三步确保要点全面。",
+    "example": "先找主题句，再提炼三个核心要点，最后用连接词把要点重组为一段通顺的话，三步完成概要。",
+    "tip": "三步法：找主题、提要点、重表达。"
+  },
+  "2|6|k|2": {
+    "explain": "应用文进阶按题型分类训练：建议信、申请信、邀请信、投诉信等，掌握格式、语气与常用句型。",
+    "tip": "按题型分类训练，格式语气都要掌握。"
+  },
+  "2|6|k|3": {
+    "explain": "建议信句型委婉得体：I'd like to suggest that...、It would be a good idea to...，语气委婉不强势。",
+    "example": "例句 I'd like to suggest that you join the club，比 You should 更得体。",
+    "tip": "建议信用委婉句型，别用 You should 太生硬。"
+  },
+  "2|6|k|4": {
+    "explain": "申请信句型展示能力与意愿：I'm writing to apply for...、I believe I am qualified for...，语气自信礼貌。",
+    "example": "例句 I'm writing to apply for the position of monitor，开头点明申请目标。",
+    "tip": "申请信开头点目标，结尾表感谢。"
+  },
+  "2|6|k|5": {
+    "explain": "语言升级用高级词汇替换普通词：important 换 significant、help 换 assist，但必须确保词义与搭配正确。",
+    "example": "例句 This is a significant change，significant 替换 important 提升档次。",
+    "tip": "升级词汇以正确为前提，搭配没把握别换。"
+  },
+  "2|6|k|6": {
+    "explain": "句式升级让定语从句、非谓语、倒装、强调句交替使用，避免句式单一：定语从句修饰名词、强调句突出重点。",
+    "example": "例句 It was his kindness that touched me 用强调句；His kindness touched me 是普通句。",
+    "tip": "多种高级句式交替，别通篇一种。"
+  },
+  "2|6|d|0": {
+    "explain": "概要写作易照抄原文，需用自己的话重组表达：换同义词、改句式、合并信息，照抄原文会被扣分。",
+    "example": "原文 It is important to protect the environment 可改写为 Protecting the environment matters。",
+    "tip": "概要换词换句式重组，照搬必扣分。"
+  },
+  "2|6|d|1": {
+    "explain": "概要要点遗漏或多写无关内容：需准确提炼核心信息，去掉例子、细节与重复内容，只保留要点，宁全勿缺。",
+    "example": "短文讲运动的三种好处，概要里这三个要点必须齐全，漏掉一个就扣分，多余的细节也不要写进去。",
+    "tip": "要点提炼宁全勿缺，细节不写入。"
+  },
+  "2|6|d|2": {
+    "explain": "应用文语气不当：建议信应委婉、投诉信应礼貌、申请信应自信，语气与身份场合相符才得体。",
+    "example": "建议信用 I suggest you should 太直接，用 I'd like to suggest 更委婉。",
+    "tip": "语气看信型：建议委婉、投诉礼貌。"
+  },
+  "2|6|d|3": {
+    "explain": "高级词汇误用指替换时词义或搭配不正确：重要词换 significant 可行，但换错语境就出错。",
+    "example": "assist 不能说 assist the exam，help with the exam 才对，搭配错更扣分。",
+    "tip": "高级词先确认词义搭配，错了不如用普通词。"
+  },
+  "2|6|d|4": {
+    "explain": "段落过渡不自然需积累过渡句型：First of all、What's more、Last but not least 等。",
+    "example": "要点间用 First of all、Besides、Finally 连接，过渡自然流畅。",
+    "tip": "积累过渡句型，要点间用连接词衔接。"
+  },
+  "2|6|e|0": {
+    "explain": "概要写作是部分省份考查题型，注意各省考试说明差异：有些省考读后续写、有些考概要写作，按本省备考。",
+    "tip": "按本省考试说明备考，题型要求以本省为准。"
+  },
+  "2|6|e|1": {
+    "explain": "应用文评分强调格式、内容、语言、得体四方面：格式规范、要点齐全、语言准确、语气得体。",
+    "tip": "格式内容语言得体四方面并重，缺一不可。"
+  },
+  "2|6|e|2": {
+    "explain": "近年应用文趋向半开放，需结合情景发挥：题目给情景和要点，需自己组织内容与表达，灵活运用句型。",
+    "tip": "半开放作文灵活发挥，要点基础上补充。"
+  },
+  "2|6|e|3": {
+    "explain": "高级句式运用得当是高分关键，但正确性优先：写错的复杂句不如写对的简单句，保证正确再求漂亮。",
+    "tip": "高级句式以正确为前提，写对比写难更重要。"
+  },
+  "3|0|k|0": {
+    "explain": "语法填空两类：有提示词考查词性转换、时态语态、非谓语；无提示词考查冠词、介词、连词、代词。",
+    "example": "有提示词 give 变 gave 或 given；无提示词填 the、in、that 等虚词。",
+    "tip": "先看有无提示词：有词考变形，无词考虚词。"
+  },
+  "3|0|k|1": {
+    "explain": "有提示词动词题三步：看是否作谓语、判断时态语态、注意主谓一致。先判谓语非谓语，再定时态，最后对一致。",
+    "example": "空格前没有谓语动词且主语完整，说明空格处作谓语，再根据时间状语确定时态，最后核对主谓一致。",
+    "tip": "动词题三步走：谓语判断、时态语态、主谓一致。"
+  },
+  "3|0|k|2": {
+    "explain": "无提示词高频词：冠词 a/an/the、介词、连词 that/which/what、代词 it/they，先分析句子结构缺什么成分。",
+    "example": "名词前没有冠词且泛指时填 a/an，特指时填 the，从句缺少成分时填连接词或代词 it。",
+    "tip": "无提示词先判句子成分，缺什么填什么。"
+  },
+  "3|0|k|3": {
+    "explain": "词性转换规律：动词变名词加 -tion、名词变形容词加 -ful、形容词变副词加 -ly，先定词性再转换。",
+    "example": "act 变 action、care 变 careful、careful 变 carefully。",
+    "tip": "先判所需词性，再套转换规则，注意拼写。"
+  },
+  "3|0|k|4": {
+    "explain": "固定搭配提示：look forward to、be good at 等短语中需填介词，空前后出现搭配线索直接填。",
+    "example": "例句 I'm looking forward to your reply，look forward to 固定搭配，空格填 to。",
+    "tip": "认出固定搭配直接填，介词题多考搭配。"
+  },
+  "3|0|k|5": {
+    "explain": "空后是名词且空前无冠词，常填冠词或形容词性物主代词：单数可数名词前必须有冠词或限定词。",
+    "example": "空格后是单数可数名词 book 且泛指时填 a，特指时填 the，表示所属时填 my、his 等。",
+    "tip": "单数可数名词前不能光秃秃，填冠词或限定词。"
+  },
+  "3|0|k|6": {
+    "explain": "语法填空 10 空约 7 空有提示词、3 空无提示词，比例基本稳定，做题时心中有数。",
+    "tip": "记住 7:3 比例，无提示词空少但常是难点。"
+  },
+  "3|0|d|0": {
+    "explain": "谓语与非谓语辨析是最大易错点：先看句中是否已有谓语动词，已有谓语则空格用非谓语。",
+    "example": "句中已有 is 作谓语，空格动词用非谓语：The book (write) by him 填 written。",
+    "tip": "先找句中谓语，有谓语则空格必为非谓语。"
+  },
+  "3|0|d|1": {
+    "explain": "词性转换注意不规则变化：believe-belief、choose-choice、advise-advice，拼写变化特殊。",
+    "example": "believe 变名词是 belief 而非 believtion，choose 变名词是 choice。",
+    "tip": "不规则词性转换逐个记，believe-belief 要熟。"
+  },
+  "3|0|d|2": {
+    "explain": "抽象名词与具体名词前的冠词使用易错：抽象名词泛指不加冠词，特指加 the，具体名词按规则用冠词。",
+    "example": "例句 Honesty is a virtue 中 honesty 泛指不加冠词；特指说 the honesty he showed。",
+    "tip": "抽象名词泛指无冠词、特指加 the。"
+  },
+  "3|0|d|3": {
+    "explain": "连词选择区分并列连词（and、but、or）与从属连词（that、because），分析句间关系再选。",
+    "example": "两个独立分句之间用 and、but 连接，主从复合句用 that、because 等引导，先判结构再选连词。",
+    "tip": "先看是并列句还是从句，再选连词。"
+  },
+  "3|0|d|4": {
+    "explain": "代词指代与形式主语 it 易混：it 可作形式主语、形式宾语，也可指代前文事物，分析其功能。",
+    "example": "例句 It is necessary to protect the environment，it 是形式主语，真正主语是 to protect。",
+    "tip": "it 作形式主语时真正主语在后面。"
+  },
+  "3|0|e|0": {
+    "explain": "动词类填空约占 4 空，时态语态与非谓语是重点：先判谓语非谓语，再定形式，动词题是得分主战场。",
+    "tip": "动词题占四成，三步法熟练运用。"
+  },
+  "3|0|e|1": {
+    "explain": "词性转换每年必考，注意词尾变化规则：-tion 名词、-ful 形容词、-ly 副词。",
+    "tip": "词性转换必考，后缀规则记牢，先判词性。"
+  },
+  "3|0|e|2": {
+    "explain": "介词填空多考固定搭配：look forward to、be proud of 等，需积累高频短语。",
+    "tip": "积累高频介词短语，搭配题直接得分。"
+  },
+  "3|0|e|3": {
+    "explain": "从句连接词考查 that、which、where 等的选用：先判从句类型与成分，缺主宾用代词、缺状语用副词。",
+    "tip": "从句连接词先判成分，缺主宾用代词、缺状语用副词。"
+  },
+  "3|1|k|0": {
+    "explain": "改错共 10 处错误，分多一词、少一词、错一词三种类型，每处只改一个词，通读全文按类型归类修改。",
+    "tip": "10 处三类型，每处只改一处。"
+  },
+  "3|1|k|1": {
+    "explain": "动词错误包括时态、语态、主谓一致、非谓语形式：时态混用、被动缺 be、主谓不一致等，逐一排查。",
+    "example": "错误 He go to school 应为 He goes to school，主谓一致错误。",
+    "tip": "动词检查四项：时态、语态、一致、非谓语。"
+  },
+  "3|1|k|2": {
+    "explain": "名词错误包括单复数、可数不可数误用：可数名词复数加 -s 或特殊变化，不可数名词永远不加 s。",
+    "example": "错误 two apple 应为 two apples；information 不可数不能加 s。",
+    "tip": "名词看单复数与可数性，不可数不加 s。"
+  },
+  "3|1|k|3": {
+    "explain": "形容词副词错误包括词性混淆、比较级最高级误用：修饰名词用形容词，修饰动词用副词，别双重比较。",
+    "example": "错误 He runs quick 应为 He runs quickly；more better 应为 better。",
+    "tip": "修饰名词形容词、修饰动词副词，比较级不双用。"
+  },
+  "3|1|k|4": {
+    "explain": "冠词错误：a/an/the 的缺失、多余、误用。单数可数名词前缺冠词、the 多余、a 与 an 混用。",
+    "example": "错误 I have apple 应为 I have an apple；play the football 应为 play football。",
+    "tip": "单数可数名词前查冠词，元音前用 an。"
+  },
+  "3|1|k|5": {
+    "explain": "介词错误：固定搭配中介词误用，look forward to 不能写成 look forward for。",
+    "example": "错误 be good in English 应为 be good at English，靠积累识别。",
+    "tip": "介词错误多考固定搭配，积累高频搭配。"
+  },
+  "3|1|k|6": {
+    "explain": "连词错误：and/but/or 逻辑关系混淆、从句引导词误用。转折用 but、并列用 and。",
+    "example": "错误 He is tired, and he keeps working 语义转折应用 but。",
+    "tip": "连词先看逻辑关系，转折并列递进各归其位。"
+  },
+  "3|1|d|0": {
+    "explain": "多一词与少一词辨析难：介词多余（enter into 应为 enter）、冠词缺失。判断标准是去掉或加上后是否通顺。",
+    "example": "错误 He entered into the room 中 into 多余；I have apple 缺冠词 an。",
+    "tip": "多词删、少词加，以通顺为标准。"
+  },
+  "3|1|d|1": {
+    "explain": "动词时态前后不一致需通读全文判断时间线：全文过去时中间冒出现在时即错误，以首句时态为基准核对。",
+    "example": "全文用过去时叙述，中间一句却用现在时 goes，就是时态错误，应改为 went 保持时间线一致。",
+    "tip": "通读全文定时间线，以首句时态为基准。"
+  },
+  "3|1|d|2": {
+    "explain": "固定搭配错误需平时积累：be fond of、be familiar with 等搭配错了看不出来，对策是积累高频搭配。",
+    "example": "错误 be familiar to 应 be familiar with（熟悉）。",
+    "tip": "积累高频固定搭配，改错才能一眼识别。"
+  },
+  "3|1|d|3": {
+    "explain": "逻辑错误指转折与递进连词误用：语义转折应用 but 却写成 and。需理解句意判断逻辑关系，再改连词。",
+    "example": "前句说很累、后句说仍然坚持工作，语义发生转折应用 but，写成 and 就是逻辑关系错误。",
+    "tip": "连词先理解句意，语义关系决定用词。"
+  },
+  "3|1|d|4": {
+    "explain": "名词单复数错误需结合语境判断：泛指用复数、特指用单数，可数不可数要分清，语境决定单复数。",
+    "example": "语境表示多个学生就用 students 复数，表示泛指一类事物用单数加冠词，单复数由语境决定。",
+    "tip": "名词单复数结合语境判断，别只看单句。"
+  },
+  "3|1|e|0": {
+    "explain": "改错 10 处错误分布：动词类约 4 处、其他类约 6 处，检查时重点排查动词错误，兼顾其他类别。",
+    "tip": "动词类占四成，优先排查时态一致非谓语。"
+  },
+  "3|1|e|1": {
+    "explain": "时态、主谓一致、固定搭配为高频考点：检查时优先排查这几类，逐一核对全文，再查名词冠词等。",
+    "tip": "先查时态一致搭配，再查名词冠词介词。"
+  },
+  "3|1|e|2": {
+    "explain": "多一词少一词各约 1~2 处，注意冠词与介词：单数名词前查缺冠词，动词后查多余介词。",
+    "tip": "多词少词多在冠词介词，重点检查这两类。"
+  },
+  "3|1|e|3": {
+    "explain": "改完后通读全文检查逻辑连贯性：把改完的句子连起来读一遍，语义通顺、逻辑连贯才算真正改对。",
+    "tip": "改完全文通读一遍，语义逻辑通顺才完成。"
+  },
+  "3|2|k|0": {
+    "explain": "四大题型：细节理解、推理判断、主旨大意、词义猜测，各题型解题方法不同：定位、推断、概括、猜词。",
+    "tip": "四题型四方法，先识别题型再对应。"
+  },
+  "3|2|k|1": {
+    "explain": "细节题解题：关键词定位、同义改写识别、排除干扰项。选项与原文同义改写要对上，干扰项逐词排除。",
+    "example": "题干关键词 scientist 定位原文，选项换说法表述同一意思，识别同义改写。",
+    "tip": "细节题定位加比对，同义改写是正确项特征。"
+  },
+  "3|2|k|2": {
+    "explain": "推理题解题：基于原文事实、把握推断限度、排除无中生有，答案是从原文推出的一步结论。",
+    "tip": "推理基于原文只推一步，超范围即错。"
+  },
+  "3|2|k|3": {
+    "explain": "主旨题解题：抓主题句、概括范围、排除以偏概全。主题句常在首尾段，选项概括范围与文章一致。",
+    "tip": "抓主题句定主旨，选项范围与文章一致。"
+  },
+  "3|2|k|4": {
+    "explain": "词义猜测解题：语境线索（定义举例对比）、构词法、逻辑关系三线索并用，猜完回原文验证是否符合逻辑。",
+    "example": "遇到生词先拆构词法猜出大意，再找上下文中的定义、举例线索验证，猜完代入原文检验是否通顺。",
+    "tip": "猜词用语境加构词双线索，验证后再定。"
+  },
+  "3|2|k|5": {
+    "explain": "阅读策略：先题后文、略读定位、精读比对。先读题干圈出关键词，略读抓结构，再精读比对答案。",
+    "tip": "先题后文三步走，略读定位精读比对。"
+  },
+  "3|2|k|6": {
+    "explain": "限时训练：每篇 7~8 分钟，四篇控制在 30 分钟以内，平时计时训练培养节奏。",
+    "tip": "每篇 8 分钟以内，四篇半小时。"
+  },
+  "3|2|d|0": {
+    "explain": "细节题干扰项设置：张冠李戴、偷换概念、无中生有。识别干扰手法即排除，逐项对照原文验证。",
+    "example": "原文 Tom 买书，选项 Jack 买书是张冠李戴；原文 30 分钟选项 13 分钟是偷换。",
+    "tip": "识别干扰手法：张冠李戴、偷换概念、无中生有。"
+  },
+  "3|2|d|1": {
+    "explain": "推理题过度推断与推理不足两个极端均易错：正确推理应在原文基础上合理外推一步，不多也不少。",
+    "example": "原文只说下雨，推断他们不能去远足是合理的；推断他们心情差就过度了，因为原文没提心情。",
+    "tip": "推理外推一步，不多不少，超范围即错。"
+  },
+  "3|2|d|2": {
+    "explain": "主旨题概括范围把握难：选项太宽涵盖范围超文章，太窄只覆盖部分段落，权衡选项涵盖面与文章匹配。",
+    "tip": "比较选项涵盖范围，与文章一致才选。"
+  },
+  "3|2|d|3": {
+    "explain": "词义猜测题中生词无熟词线索时需全面分析语境：找定义、举例、对比、因果等线索，逐条排查猜词。",
+    "example": "生词前后有 that is、for example、unlike 等线索词，循着猜词。",
+    "tip": "无熟词线索就全面找语境线索，别放弃。"
+  },
+  "3|2|d|4": {
+    "explain": "说明文专业术语多，利用结构线索理解：定义句、举例、比较对照都能帮助理解术语，别被生词吓倒。",
+    "example": "术语后常有定义：A telescope is an instrument that...，循定义理解。",
+    "tip": "术语后找定义解释，结构线索破生词。"
+  },
+  "3|2|e|0": {
+    "explain": "阅读理解 15 题，细节题约 7~8 题、推断题约 3~4 题，细节题是得分基础。",
+    "tip": "细节题占半，基础分先拿稳，再攻难题。"
+  },
+  "3|2|e|1": {
+    "explain": "主旨大意与标题选择每年必考：练习时多总结解题套路，抓主题句、概括范围，熟练应对不丢分。",
+    "tip": "主旨标题必考，套路熟练应对不慌。"
+  },
+  "3|2|e|2": {
+    "explain": "词义猜测题以猜测动词、名词词义为主：动词看动作对象与语境，名词看上下文指代，结合语境判断。",
+    "tip": "猜词多考动词名词，看语境定词义。"
+  },
+  "3|2|e|3": {
+    "explain": "干扰项四大特征：偷换概念、无中生有、以偏概全、答非所问。做题时逐项对照原文，识别特征即排除。",
+    "tip": "记牢干扰四特征，对照排除不纠结。"
+  },
+  "3|3|k|0": {
+    "explain": "完形解题策略三步：通读全文把握主线、精读选项辨析、回读验证，先通读后精做，最后回读确认。",
+    "tip": "三步策略：通读、精做、回读验证。"
+  },
+  "3|3|k|1": {
+    "explain": "首句定调：精读首句确定时态、人物、背景，为全文定下基调，后面的选择都围绕这个基调展开。",
+    "example": "首句 Last summer I visited my grandparents，确定过去时、人物 I、背景夏天探亲。",
+    "tip": "首句定三要素：时态、人物、背景。"
+  },
+  "3|3|k|2": {
+    "explain": "上下文线索：前后句、前后段的逻辑与信息呼应，答案常藏在上下文中，仔细找对应信息即可。",
+    "example": "前文提到 hungry，后文选项 food、rest 中选 food，信息呼应。",
+    "tip": "答案常藏上下文，前后呼应找线索。"
+  },
+  "3|3|k|3": {
+    "explain": "词汇线索：复现、同义替换、反义对比，上下文出现相同或相关词汇时，可以互相印证答案所在。",
+    "example": "上文 happy，下文选项 pleased 同义、upset 反义，结合语境选。",
+    "tip": "找词汇线索：复现、同义、反义互相印证。"
+  },
+  "3|3|k|4": {
+    "explain": "逻辑线索：转折、因果、递进、让步关系词，逻辑词揭示句间关系，直接决定答案选择的方向。",
+    "example": "后句出现 however 这个转折词，说明前后句语义相反，这时应选与上文相反方向的词。",
+    "tip": "圈逻辑词定方向，转折因果递进各归位。"
+  },
+  "3|3|k|5": {
+    "explain": "情感线索：把握人物情感变化，选择符合人物心情的词汇，选词要始终跟随情感曲线，别脱离心情。",
+    "example": "主人公考试前 nervous，考后 relaxed、tired 中选 relaxed。",
+    "tip": "跟随人物情感变化选词，心情曲线是线索。"
+  },
+  "3|3|k|6": {
+    "explain": "完形限时约 15 分钟：通读 3 分钟、精做 10 分钟、回读 2 分钟，节奏稳定不超时。",
+    "tip": "15 分钟分三段：通读、精做、回读。"
+  },
+  "3|3|d|0": {
+    "explain": "选项四个词义相近，需结合语境微调词义：每个词都有细微差异，要选择最贴合语境的哪一个。",
+    "example": "look、watch、see、observe 都有看义，强调结果选 see，强调过程选 watch。",
+    "tip": "近义选项辨细微差异，最贴合语境才选。"
+  },
+  "3|3|d|1": {
+    "explain": "跨段落线索寻找困难，需整体把握文章：答案可能藏在前几段或后几段，别只盯着相邻句子看。",
+    "example": "开头提到的某个物品，到结尾处才揭晓它的用途，中间的空格就需要跨段落去寻找线索才行。",
+    "tip": "线索可跨段，把握全文找对应信息。"
+  },
+  "3|3|d|2": {
+    "explain": "逻辑连接词处设空需全面分析句间关系：连接词前后句的具体意思决定选哪个词，别只看连接词。",
+    "example": "however 前后句的关系不能只看连接词本身，还要看两句的具体内容，语义分析先行。",
+    "tip": "逻辑词空先分析前后句语义，再定答案。"
+  },
+  "3|3|d|3": {
+    "explain": "熟词生义与词语活用增加难度：book 预订、address 处理，活用词靠语境理解。",
+    "example": "语境 They booked a room 中 book 不是书而是预订，这就是熟词生义靠语境判断。",
+    "tip": "熟词代入不通顺就试生义，活用靠语境。"
+  },
+  "3|3|d|4": {
+    "explain": "文化背景知识缺失影响理解：了解西方节日、习俗、社交礼仪常识，能帮助判断选项，平时注意积累。",
+    "example": "文章讲 Thanksgiving 感恩节，了解感恩节吃火鸡的习俗，理解文章就会更容易。",
+    "tip": "积累西方文化常识，完形阅读双受益。"
+  },
+  "3|3|e|0": {
+    "explain": "完形 15 空，动词、名词、形容词为主：动词看动作逻辑、名词看指代、形容词看情感色彩。",
+    "tip": "动词名词形容词为主，各按特点辨析。"
+  },
+  "3|3|e|1": {
+    "explain": "上下文逻辑与词汇复现是命题与解题的核心：命题围绕逻辑关系设空，解题则要依靠复现线索来找答案。",
+    "tip": "逻辑与复现双核心，两线索并用。"
+  },
+  "3|3|e|2": {
+    "explain": "记叙文为主，夹叙夹议趋势明显：故事中穿插议论与感悟，解题时注意叙述和议论两种笔法的转换。",
+    "tip": "夹叙夹议注意转换，感悟处多设题。"
+  },
+  "3|3|e|3": {
+    "explain": "情感态度词为近年考查热点：人物心情、态度评价类词频繁设空，平时要积累情感态度词汇。",
+    "tip": "积累情感态度词，情绪变化处重点看。"
+  },
+  "3|4|k|0": {
+    "explain": "七选五解题四步：通读全文了解结构、分析空格位置功能、利用线索选择答案、最后回读验证。",
+    "tip": "四步解题：通读、判位置、找线索、回读。"
+  },
+  "3|4|k|1": {
+    "explain": "段首空填主题句，概括整个段落的内容。选项应能统领全段，并与下文的各句逻辑保持一致。",
+    "example": "段落讲健康饮食，段首空选 Eating a balanced diet is essential 主题句。",
+    "tip": "段首空选概括句，统领全段内容。"
+  },
+  "3|4|k|2": {
+    "explain": "段中空填细节支撑或例证，要与前后句逻辑衔接、话题保持一致，并且不能偏离段落主题。",
+    "example": "前句说运动有很多好处，段中空就填一个具体好处的例子，这样与前后句衔接自然、逻辑顺畅。",
+    "tip": "段中空是细节支撑，衔接前后句。"
+  },
+  "3|4|k|3": {
+    "explain": "段尾空填总结句或过渡句：总结上文的全部内容，或承上启下，自然引出下文要讲的新话题。",
+    "example": "段尾空填 In short, exercise benefits us in many ways 总结句。",
+    "tip": "段尾空总结上文或引出下文，看衔接。"
+  },
+  "3|4|k|4": {
+    "explain": "代词线索：it、they、this、these 指代上文，选项代词必须有明确指代对象。",
+    "example": "选项 They are cheap 中的 they 必须在上文找到指代的复数名词，指代成立才考虑选择。",
+    "tip": "选项代词先找指代对象，指代落空即排除。"
+  },
+  "3|4|k|5": {
+    "explain": "逻辑线索：however 转折、therefore 因果、for example 举例、in addition 递进。",
+    "example": "前文是概括性表述，选项以 For example 开头举例说明，逻辑上正好吻合，可以选。",
+    "tip": "连接词定逻辑方向：转折因果举例递进。"
+  },
+  "3|4|k|6": {
+    "explain": "词汇线索：原词复现、同义词、上下义词，选项与上下文出现相同或相关词汇，说明话题一致。",
+    "example": "上文出现 pollution 一词，选项出现 environment 等相关词，话题关联提示选项位置。",
+    "tip": "词汇复现话题关联，同义上下义都算。"
+  },
+  "3|4|d|0": {
+    "explain": "干扰项与正确项表面相似，需比较衔接逻辑：把选项代入后检查逻辑、指代、话题是否全部吻合。",
+    "example": "两个选项都谈到环保话题，一个与上下文衔接紧密、一个显得勉强，选衔接更紧密的那一个。",
+    "tip": "相似选项比衔接，逻辑指代话题全吻合。"
+  },
+  "3|4|d|1": {
+    "explain": "代词指代范围判断难，需跨句跨段寻找指代对象：指代对象可能在前一段，千万别只盯着相邻句子。",
+    "example": "选项 this problem 中的指代对象在上一段出现过，必须跨段落去寻找才能确认。",
+    "tip": "代词指代可跨段，全文范围找对象。"
+  },
+  "3|4|d|2": {
+    "explain": "转折与让步区分难：however 前后语义相反，although 表示让步仍顺承主句。",
+    "example": "前后意思相反时用 however；而 although 引导让步从句时，主句的结果并不受从句影响。",
+    "tip": "细读前后句语义，相反用转折、顺承用递进。"
+  },
+  "3|4|d|3": {
+    "explain": "主题句与细节句位置判断失误：段首空应填主题句概括全段，段中空填细节句支撑，位置定功能。",
+    "tip": "位置定功能：段首主题、段中细节。"
+  },
+  "3|4|d|4": {
+    "explain": "两选项均可时，比较与上下文的衔接紧密度：逻辑、指代、词汇复现哪项更吻合，就选哪一项。",
+    "tip": "两可时比衔接，吻合度高者胜出。"
+  },
+  "3|4|e|0": {
+    "explain": "七选五共 5 个空，考查语篇连贯与衔接：选项都是完整的句子，解题必须依靠各种衔接手段。",
+    "tip": "语篇衔接是核心，代词逻辑复现三线索。"
+  },
+  "3|4|e|1": {
+    "explain": "空格分布：段首、段中、段尾均有设空，空格的位置功能对应选项的类型，先定位置再选句子。",
+    "tip": "每空先定位置功能，再选对应句子。"
+  },
+  "3|4|e|2": {
+    "explain": "逻辑连接词与代词指代为解题关键：这两类线索能解决大部分题目，做题时应优先使用这两类线索。",
+    "tip": "先找逻辑词代词线索，多数题可解。"
+  },
+  "3|4|e|3": {
+    "explain": "答题后整体回读验证连贯性：把所选选项代入通读全文，语义通顺、逻辑连贯才算真正完成。",
+    "tip": "回读全文验证连贯，不通顺立即调整。"
+  },
+  "3|5|k|0": {
+    "explain": "应用文模板化训练：建议信、邀请信、申请信、感谢信、投诉信各备模板，首尾句型通用。",
+    "tip": "五种信各备模板，首尾句型通用。"
+  },
+  "3|5|k|1": {
+    "explain": "读后续写框架：衔接段首语、冲突发展、结局升华，框架明确，情节的展开自然就有章可循。",
+    "tip": "三框架：衔接、冲突、升华，一步不缺。"
+  },
+  "3|5|k|2": {
+    "explain": "概要写作框架：主题句概括、要点提炼、语言重组，这三步框架能确保要点全面、语言简洁流畅。",
+    "tip": "概要三框架：概括、提炼、重组。"
+  },
+  "3|5|k|3": {
+    "explain": "写作评分要素：内容要点、语言准确、篇章连贯、格式规范，这四个要素综合评分，缺一不可。",
+    "tip": "四要素：内容、语言、连贯、格式。"
+  },
+  "3|5|k|4": {
+    "explain": "高级句型积累：倒装、强调、非谓语、从句、虚拟语气，建立自己的句型库，写作时能灵活运用。",
+    "example": "例句 Only in this way can we solve the problem，倒装句型积累。",
+    "tip": "五类高级句型各积累两三句，写作点缀。"
+  },
+  "3|5|k|5": {
+    "explain": "时间分配：写作约 35 分钟，应用文 15 分钟、读后续写 20 分钟，分配合理不草草收尾。",
+    "tip": "35 分钟分两半，应用文 15 续写 20。"
+  },
+  "3|5|k|6": {
+    "explain": "书写工整：卷面整洁对评分影响很大，注意字母规范、大小写和间距，书写清楚、不要乱涂改。",
+    "tip": "卷面分不能丢，字母规范、书写整洁。"
+  },
+  "3|5|d|0": {
+    "explain": "应用文要点遗漏与格式错误是常见失分点：动笔前列提纲、写后对照题目，格式按模板检查。",
+    "tip": "提纲保要点，模板保格式，双保险。"
+  },
+  "3|5|d|1": {
+    "explain": "读后续写情节设计与原文衔接难：回读原文寻找伏笔线索，让续写情节延续原文的逻辑和风格发展。",
+    "tip": "回读找伏笔，情节顺着原文逻辑走。"
+  },
+  "3|5|d|2": {
+    "explain": "概要写作语言重组难，极易照抄原文：要换同义词、改句式、合并信息，用自己的话重新组织表达。",
+    "tip": "概要换词换句，用自己的话重组。"
+  },
+  "3|5|d|3": {
+    "explain": "高级句型使用错误反而扣分：写错的倒装、虚拟语气不如写对的简单句，务必保证正确性优先。",
+    "tip": "高级句型正确优先，拿不准就写简单句。"
+  },
+  "3|5|d|4": {
+    "explain": "考场时间紧张容易导致作文草草收尾：平时要限时训练，熟练掌握时间分配，给作文留足时间。",
+    "tip": "平时计时训练，留足 35 分钟。"
+  },
+  "3|5|e|0": {
+    "explain": "应用文约 100 词，读后续写 150 词左右：过少扣内容分，过多浪费时间，控制在要求范围。",
+    "tip": "字数达标，应用文 100、续写 150。"
+  },
+  "3|5|e|1": {
+    "explain": "评分分档：内容、语言、结构、得体综合评分，先保证内容要点齐全，再追求语言准确和结构连贯。",
+    "tip": "内容为先，语言、结构、得体跟进。"
+  },
+  "3|5|e|2": {
+    "explain": "首尾句与亮点句型是阅卷老师快速评分的关键：开头点题、结尾得体，中间段落点缀亮点句型。",
+    "tip": "首尾亮眼，中间段落点缀高级句型。"
+  },
+  "3|5|e|3": {
+    "explain": "近年作文情景设计灵活，需结合具体情景写作：认真审题看清情景要求，确保内容切题不跑偏。",
+    "tip": "审清情景再动笔，内容切题最关键。"
+  },
+  "3|6|k|0": {
+    "explain": "高频动词短语：break down 出故障、come across 偶然遇到、carry on 继续、put off 推迟、set up 建立。",
+    "example": "例句 I came across an old friend yesterday，come across 表偶然遇到。",
+    "tip": "动词短语整体记忆，别拆开理解。"
+  },
+  "3|6|k|1": {
+    "explain": "高频名词短语：a variety of 各种各样的、a great deal of 大量、on behalf of 代表、in terms of 就……而言。",
+    "example": "例句 There are a variety of books in the library，a variety of 修饰可数复数。",
+    "tip": "名词短语记搭配对象，可数不可数分清。"
+  },
+  "3|6|k|2": {
+    "explain": "高频句型：It is + adj + for sb to do、There is no doubt that...，结构固定套用即得分。",
+    "example": "例句 It is important for us to learn English，It is + adj + for sb to do 句型。",
+    "tip": "高频句型背熟，写作时直接套用。"
+  },
+  "3|6|k|3": {
+    "explain": "强调句型：It is...that...，强调主语、宾语、状语等成分，去掉 It is...that 句子仍完整。",
+    "example": "例句 It was in the park that I met him，强调地点状语，去掉 It was...that 句子完整。",
+    "tip": "验证法：去掉 It is...that 句子完整即强调句。"
+  },
+  "3|6|k|4": {
+    "explain": "倒装句型：Only then did he realize...、Not until...did...，否定词或 only 开头部分倒装。",
+    "example": "例句 Only then did he realize his mistake，only 开头助动词 did 提前。",
+    "tip": "only 或否定词开头必倒装。"
+  },
+  "3|6|k|5": {
+    "explain": "非谓语高频句型：With...doing、Having done...、Seen from...，非谓语结构作状语简洁高级。",
+    "example": "例句 Having finished homework, he went out，Having done 表先于谓语完成。",
+    "tip": "非谓语句型作状语，逻辑主语一致才用。"
+  },
+  "3|6|k|6": {
+    "explain": "写作高频过渡词：however 然而、meanwhile 同时、furthermore 此外、as a result 因此。",
+    "example": "例句 However, not everyone agrees，however 表转折引出不同观点。",
+    "tip": "过渡词分类记：转折递进因果总结各备几个。"
+  },
+  "3|6|d|0": {
+    "explain": "动词短语一词多义：come up 出现与 come up with 想出、break down 出故障与分解。",
+    "example": "例句 A problem came up 是出现；He came up with a plan 是想出。",
+    "tip": "短语一词多义靠语境判断，结合宾语理解。"
+  },
+  "3|6|d|1": {
+    "explain": "易混短语：in charge of 负责与 in the charge of 由……负责、be tired of 厌倦与 be tired from 因……疲劳。",
+    "example": "例句 He is in charge of the project 是负责；The project is in the charge of him 是由他负责。",
+    "tip": "易混短语成对记，介词冠词定含义。"
+  },
+  "3|6|d|2": {
+    "explain": "句型中虚拟语气与倒装结合使用易错：Had I known 是虚拟条件句省略 if 加倒装。",
+    "example": "例句 Had I known, I would have helped，省略 if 加倒装加虚拟叠加。",
+    "tip": "虚拟加倒装叠加时，先认虚拟再认倒装。"
+  },
+  "3|6|d|3": {
+    "explain": "高级句型误用：主语从句中 that 缺失、强调句中 it 误用，句型结构要完整。",
+    "example": "错误 It is important we study 缺 that，正确 It is important that we study。",
+    "tip": "句型结构完整检查：that 不省、it 不换。"
+  },
+  "3|6|d|4": {
+    "explain": "词汇搭配错误：动词与介词搭配需准确记忆，come up with 不能写 come up to。",
+    "example": "例句 He came up with a solution，come up with 固定搭配，介词不能换。",
+    "tip": "搭配按整体记忆，介词一个都不能错。"
+  },
+  "3|6|e|0": {
+    "explain": "语法填空与改错直接考查短语搭配：语法填空填介词、短文改错改介词，搭配记忆是得分的基础。",
+    "tip": "短语搭配基础分，高频搭配背熟。"
+  },
+  "3|6|e|1": {
+    "explain": "写作中使用高频句型可提升语言档次：强调句、倒装句、非谓语等句型点缀，语言表现力更强。",
+    "tip": "写作套高频句型，语言档次自然高。"
+  },
+  "3|6|e|2": {
+    "explain": "完形中动词短语辨析为高频考点：give up、give in、give away 一组辨析，注意介词差异。",
+    "tip": "动词短语成组辨析，介词差异是考点。"
+  },
+  "3|6|e|3": {
+    "explain": "熟词生义为阅读与完形的考查重点：address 处理、charge 收费，积累生义扩大储备。",
+    "tip": "积累熟词生义，阅读完形都受益。"
+  },
+  "3|7|k|0": {
+    "explain": "听力播放前快速浏览题目，预测内容与问题类型：看关键词预测话题，听的时候才能有的放矢。",
+    "example": "题目问 What time does the train leave?，预测是时间信息题，重点捕捉时间数字。",
+    "tip": "考前浏览题目，圈关键词预测话题。"
+  },
+  "3|7|k|1": {
+    "explain": "数字信息题：时间、价格、电话号码，注意听辨与记录。一个数字出现多个时，要听清并记下来。",
+    "example": "对话中提到 8:00 和 8:30 两个时间，题目问出发时间，就要听清并记下对应的那个。",
+    "tip": "数字边听边记，多个数字分清对应关系。"
+  },
+  "3|7|k|2": {
+    "explain": "人物关系推断：根据称呼与语气判断人物关系，teacher-student、doctor-patient 等。",
+    "example": "听到 What can I do for you, sir? 与 menu，推断 waiter 与 customer。",
+    "tip": "听称呼与场景词推断人物关系，别只听内容。"
+  },
+  "3|7|k|3": {
+    "explain": "地点场景推断：根据关键词判断地点，menu 提示餐厅、ticket 提示车站电影院。",
+    "example": "听到 order、menu、bill 这些典型词汇，就能判断出这段对话的场景是在餐厅里。",
+    "tip": "场景关键词积累：menu 餐厅、ticket 车站。"
+  },
+  "3|7|k|4": {
+    "explain": "主旨大意题关注开头与结尾的概括性语句：听力材料开头常点明主题，结尾部分常作总结陈词。",
+    "example": "独白开头 This talk is about...，直接点明主旨，开头句重点听。",
+    "tip": "开头结尾是主旨所在，重点听首尾句。"
+  },
+  "3|7|k|5": {
+    "explain": "细节理解题注意转折词 but、however 后的信息：转折后常是正确答案所在。",
+    "example": "前半句说 plan A，but 后说 changed to plan B，答案在 but 之后。",
+    "tip": "but、however 后是重点。"
+  },
+  "3|7|k|6": {
+    "explain": "心态调整：听不懂时别慌张，抓住关键词继续往下听，漏听一处别纠结，紧跟着下一题走。",
+    "tip": "漏听不慌，抓关键词，跟上听力节奏。"
+  },
+  "3|7|d|0": {
+    "explain": "数字干扰：题目中的数字与听力中的数字常常不一致，往往需要计算，先听清两者的关系再算。",
+    "example": "每件商品 5 元、一共买 3 件，题目问总价就要算出 15 元，不能直接选单价 5 元这个数。",
+    "tip": "数字题先听清关系，需计算就列式。"
+  },
+  "3|7|d|1": {
+    "explain": "同义替换：选项与听力原文表达不同需理解转换，如原文 very tired，选项 exhausted。",
+    "example": "原文 He felt very tired，选项 He was exhausted，同义替换需听懂含义。",
+    "tip": "听含义不听字面，同义替换要能识别。"
+  },
+  "3|7|d|2": {
+    "explain": "连读弱读影响听辨：want to 读成 wanna、going to 读成 gonna，多听多模仿适应。",
+    "example": "I wanna go 就是 I want to go 的连读形式，听惯了连读才能听懂口语。",
+    "tip": "多听真题适应连读弱读，模仿跟读。"
+  },
+  "3|7|d|3": {
+    "explain": "说话人意图推断难：需结合语气与语境综合判断，疑问句可能表建议，反问句可能表否定之意。",
+    "example": "Why not try it? 表面是疑问，实际是建议尝试，要结合语气和语境判断真实意图。",
+    "tip": "结合语气语境判断意图，别只听字面。"
+  },
+  "3|7|d|4": {
+    "explain": "第一遍没听懂会影响第二遍：第一遍先抓关键词，第二遍重点听细节，学会两遍配合使用。",
+    "example": "第一遍只听关键词、大致了解内容，第二遍再重点补充细节，这样两遍配合起来效果最好。",
+    "tip": "第一遍抓关键词，第二遍补细节。"
+  },
+  "3|7|e|0": {
+    "explain": "听力 20 题，细节题占比最高：时间、地点、人物、数字细节题多，重点练细节捕捉。",
+    "tip": "细节题占比高，重点练细节捕捉。"
+  },
+  "3|7|e|1": {
+    "explain": "对话场景：日常生活、校园、购物、旅行等为常考场景，熟悉各个场景里的高频词汇是关键。",
+    "tip": "场景词汇分类积累，校园购物旅行重点。"
+  },
+  "3|7|e|2": {
+    "explain": "独白类材料：通知、演讲、介绍为主，独白开头交代主题，中间展开细节，结尾常有总结句。",
+    "tip": "独白听开头定主题，中间抓细节。"
+  },
+  "3|7|e|3": {
+    "explain": "平时多听真题听力，适应语速与口音：真题的语速和口音最接近真实考试，必须反复地听练。",
+    "tip": "真题听力反复听，适应语速口音。"
+  }
+}

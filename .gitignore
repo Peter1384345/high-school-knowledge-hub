@@ -2,3 +2,5 @@
 dsh-session-*.zip
 .check_*
 *.log
+
+ca-bundle.crt

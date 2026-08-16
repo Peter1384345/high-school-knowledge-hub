@@ -247,8 +247,13 @@ mark{background:rgba(251,191,36,.32); color:inherit; border-radius:4px; padding:
 .item .it-text{font-size:14px; color:var(--text); transition:color .25s, opacity .25s}
 .item.lv5 .it-text{opacity:.55; text-decoration:line-through; text-decoration-color:color-mix(in srgb, var(--jade) 65%, transparent)}
 .item.lv1 .it-text{color:color-mix(in srgb, var(--text) 88%, #9aa0a8)}
-.it-more{display:inline-flex; align-items:center; gap:4px; margin-top:7px; font-size:11.5px; color:var(--accent); background:transparent; border:1px solid color-mix(in srgb, var(--accent) 40%, transparent); padding:2px 11px; border-radius:999px; cursor:pointer; transition:all .22s}
+.it-more-row{display:flex; gap:8px; margin-top:7px}
+.it-more{display:inline-flex; align-items:center; gap:4px; font-size:11.5px; color:var(--accent); background:transparent; border:1px solid color-mix(in srgb, var(--accent) 40%, transparent); padding:2px 11px; border-radius:999px; cursor:pointer; transition:all .22s}
+.it-prac{display:inline-flex; align-items:center; gap:4px; font-size:11.5px; color:var(--jade); background:transparent; border:1px solid color-mix(in srgb, var(--jade) 45%, transparent); padding:2px 11px; border-radius:999px; cursor:pointer; transition:all .22s}
 .it-more:hover{background:color-mix(in srgb, var(--accent) 14%, transparent); box-shadow:0 0 10px color-mix(in srgb, var(--accent) 25%, transparent)}
+.it-prac:hover{background:color-mix(in srgb, var(--jade) 14%, transparent); box-shadow:0 0 10px color-mix(in srgb, var(--jade) 25%, transparent)}
+.prac-q{font-size:13px; color:var(--muted); margin:4px 0 8px}
+.prac-hint{font-size:11.5px; color:var(--faint); margin-top:10px; text-align:center}
 .item.open .it-more{background:color-mix(in srgb, var(--accent) 14%, transparent)}
 .it-detail{display:none; margin-top:9px; padding:11px 13px; border-radius:10px; background:rgba(0,0,10,.35); border:1px dashed var(--border); animation:slideIn .28s ease}
 html[data-theme="light"] .it-detail{background:rgba(30,60,120,.06)}
@@ -385,6 +390,7 @@ html[data-theme="light"] .it-detail{background:rgba(30,60,120,.06)}
     <button id="etbBtn" class="icon-btn" title="电子课本（按教材单元目录浏览）">📖</button>
     <button id="graphBtn" class="icon-btn" title="知识关系图谱">🗺️</button>
     <button id="reviewBtn" class="ghost-btn" title="间隔重复复习（按遗忘曲线安排）">🔄 <span>复习</span><span id="reviewBadge" class="rv-badge" style="display:none">0</span></button>
+    <button id="pracBtn" class="ghost-btn" title="知识点练习（判断正误 / 回忆复述 / 例题思考）">✏️ <span>练习</span></button>
     <button id="randomBtn" class="ghost-btn" title="随机复习一条知识点">🎲 <span>随机复习</span></button>
     <button id="themeBtn" class="icon-btn" title="切换明暗主题"></button>
   </div>
@@ -600,6 +606,14 @@ function showReviewItem(){
   $('#modalCard .rv-good').addEventListener('click', () => reviewRate(key, 2));
 }
 function reviewRate(key, quality){
+  scheduleRate(key, quality);
+  const iv = mastery[key].iv;
+  const msg = quality === 0 ? '已安排 1 天后复习' : quality === 1 ? '下次复习 ' + iv + ' 天后' : '已提升为「' + LV_NAMES[mastery[key].lv] + '」，' + iv + ' 天后复习';
+  toast(msg);
+  reviewIdx++;
+  showReviewItem();
+}
+function scheduleRate(key, quality){
   const cur = mastery[key] || { lv: 1, iv: 1, reps: 0 };
   let lv = cur.lv, iv = cur.iv || 1;
   if (quality === 0){ lv = Math.max(1, lv - 1); iv = 1; }
@@ -607,11 +621,126 @@ function reviewRate(key, quality){
   else { lv = Math.min(5, lv + 1); iv = Math.min(60, Math.max(3, Math.round(iv * 2))); }
   mastery[key] = { lv, iv, due: Date.now() + iv * DAY, reps: (cur.reps || 0) + 1 };
   saveMastery();
-  const msg = quality === 0 ? '已安排 1 天后复习' : quality === 1 ? '下次复习 ' + iv + ' 天后' : '已提升为「' + LV_NAMES[lv] + '」，' + iv + ' 天后复习';
-  toast(msg);
-  reviewIdx++;
-  showReviewItem();
+  updateReviewBadge();
 }
+
+/* ============ 练习模式（判断正误 / 回忆复述 / 例题思考） ============ */
+let pracQueue = [], pracIdx = 0;
+function distortText(t){
+  if (!t || t.length < 4) return null;
+  const pairs = [['不一定', '一定'], ['一定', '不一定'], ['大于', '小于'], ['小于', '大于'], ['增加', '减小'], ['减小', '增加'], ['成正比', '成反比'], ['成反比', '成正比']];
+  for (const [a, b] of pairs){ if (t.includes(a)) return { d: t.replace(a, b), o: t }; }
+  const eq = t.indexOf('=');
+  if (eq >= 0) return { d: t.slice(0, eq) + '≠' + t.slice(eq + 1), o: t };
+  const nb = t.indexOf('不');
+  if (nb >= 0 && t.length <= 42) return { d: t.slice(0, nb) + t.slice(nb + 1), o: t };
+  const m = t.match(/\d+/);
+  if (m && t.length <= 42) return { d: t.replace(m[0], String(parseInt(m[0], 10) + 1)), o: t };
+  return null;
+}
+function startPractice(onlyKey){
+  pracQueue = [];
+  if (onlyKey){ pracQueue.push(onlyKey); }
+  else {
+    const pool = INDEX.filter((x) => x.key && x.cat.id !== 't' && (ENRICH[x.s.id] || {})[x.pi + '|' + x.mi + '|' + x.cat.id + '|' + x.key.split('|')[4]]);
+    for (let i = pool.length - 1; i > 0; i--){ const j = Math.floor(Math.random() * (i + 1)); const tmp = pool[i]; pool[i] = pool[j]; pool[j] = tmp; }
+    pracQueue = pool.slice(0, 10).map((x) => x.key);
+  }
+  if (!pracQueue.length){ toast('暂无可练习的知识点'); return; }
+  pracIdx = 0;
+  showPracItem();
+}
+function pracData(key){
+  const parts = key.split('|');
+  const s = DATA.find((x) => x.id === parts[0]);
+  const p = s.periods[Number(parts[1])], m = p.modules[Number(parts[2])];
+  const c = CATS.find((x) => x.id === parts[3]);
+  const text = (m[c.key] || [])[Number(parts[4])] || '';
+  const en = (ENRICH[s.id] || {})[parts[1] + '|' + parts[2] + '|' + parts[3] + '|' + parts[4]];
+  return { s, p, m, c, text, en, key };
+}
+function showPracItem(){
+  const key = pracQueue[pracIdx];
+  if (!key){ hideModal(); toast('练习完成 🎉'); return; }
+  const d = pracData(key);
+  const distort = distortText(d.text);
+  let type = 'recall';
+  if (distort && Math.random() < .45) type = 'judge';
+  else if (d.en && d.en.example && Math.random() < .55) type = 'example';
+  const crumb = `<div class="mt-crumb">${esc(d.s.name)} · ${esc(d.p.period)} · ${esc(d.m.title)} · ${d.c.icon}${esc(d.c.name)}</div>`;
+  if (type === 'judge'){
+    $('#modalCard').innerHTML = `
+      <div class="modal-top"><span class="mt-subj" style="color:${d.s.color}">🧐 判断正误 · ${pracIdx + 1}/${pracQueue.length}</span><button id="modalClose" class="icon-btn">✕</button></div>
+      ${crumb}
+      <p class="prac-q">判断下列说法是否正确：</p>
+      <p class="mt-text">${esc(distort.d)}</p>
+      <div class="mt-actions"><button class="ghost-btn pj-true">✔ 正确</button><button class="ghost-btn pj-false">✘ 错误</button></div>
+      <div class="prac-hint">先想清楚再点；系统会按答题结果自动调整复习计划</div>`;
+    showModal();
+    $('#modalClose').addEventListener('click', hideModal);
+    $('#modalCard .pj-true').addEventListener('click', () => pracJudge(d, distort, true));
+    $('#modalCard .pj-false').addEventListener('click', () => pracJudge(d, distort, false));
+  } else if (type === 'example'){
+    $('#modalCard').innerHTML = `
+      <div class="modal-top"><span class="mt-subj" style="color:${d.s.color}">✏️ 例题思考 · ${pracIdx + 1}/${pracQueue.length}</span><button id="modalClose" class="icon-btn">✕</button></div>
+      ${crumb}
+      <p class="prac-q">先独立思考下面这道例题，再看解析：</p>
+      <p class="mt-text">${esc(d.en.example)}</p>
+      <div class="mt-actions"><button class="primary-btn pj-reveal">💡 看解析</button></div>
+      <div class="prac-hint">先动脑再看答案，效果最好（检索练习）</div>`;
+    showModal();
+    $('#modalClose').addEventListener('click', hideModal);
+    $('#modalCard .pj-reveal').addEventListener('click', () => pracReveal(d, 'example'));
+  } else {
+    $('#modalCard').innerHTML = `
+      <div class="modal-top"><span class="mt-subj" style="color:${d.s.color}">📝 回忆复述 · ${pracIdx + 1}/${pracQueue.length}</span><button id="modalClose" class="icon-btn">✕</button></div>
+      ${crumb}
+      <p class="prac-q">先在脑中复述这个知识点，回忆完再显示答案：</p>
+      <div class="mt-actions"><button class="primary-btn pj-reveal">🔎 显示答案</button></div>
+      <div class="prac-hint">主动回忆比反复看更有效（提取练习）</div>`;
+    showModal();
+    $('#modalClose').addEventListener('click', hideModal);
+    $('#modalCard .pj-reveal').addEventListener('click', () => pracReveal(d, 'recall'));
+  }
+}
+function pracJudge(d, distort, picked){
+  const right = !picked;
+  scheduleRate(d.key, right ? 2 : 0);
+  $('#modalCard').innerHTML = `
+    <div class="modal-top"><span class="mt-subj" style="color:${d.s.color}">${right ? '🎉 判断正确' : '😅 判断错误'} · ${pracIdx + 1}/${pracQueue.length}</span><button id="modalClose" class="icon-btn">✕</button></div>
+    <div class="mt-crumb">${esc(d.s.name)} · ${esc(d.m.title)}</div>
+    <p class="prac-q">原句（正确答案）：</p>
+    <p class="mt-text">${esc(distort.o)}</p>
+    ${d.en && d.en.explain ? `<div class="mt-ex"><b>📖 讲解</b>${esc(d.en.explain)}</div>` : ''}
+    <div class="mt-actions"><button class="primary-btn pj-next">下一题 →</button></div>`;
+  showModal();
+  $('#modalClose').addEventListener('click', hideModal);
+  $('#modalCard .pj-next').addEventListener('click', pracNext);
+}
+function pracReveal(d, kind){
+  $('#modalCard').innerHTML = `
+    <div class="modal-top"><span class="mt-subj" style="color:${d.s.color}">${kind === 'example' ? '✏️ 例题解析' : '📝 答案'} · ${pracIdx + 1}/${pracQueue.length}</span><button id="modalClose" class="icon-btn">✕</button></div>
+    <div class="mt-crumb">${esc(d.s.name)} · ${esc(d.m.title)}</div>
+    ${kind === 'example' ? `<p class="prac-q">例题与解析：</p><p class="mt-text">${esc(d.en.example)}</p>` : `<p class="mt-text">${esc(d.text)}</p>`}
+    ${d.en && d.en.explain ? `<div class="mt-ex"><b>📖 讲解</b>${esc(d.en.explain)}</div>` : ''}
+    <div class="mt-actions">
+      <button class="ghost-btn pj-rate0">没想起来</button>
+      <button class="ghost-btn pj-rate1">模糊</button>
+      <button class="primary-btn pj-rate2">记住了</button>
+    </div>`;
+  showModal();
+  $('#modalClose').addEventListener('click', hideModal);
+  $('#modalCard .pj-rate0').addEventListener('click', () => pracRate(d.key, 0));
+  $('#modalCard .pj-rate1').addEventListener('click', () => pracRate(d.key, 1));
+  $('#modalCard .pj-rate2').addEventListener('click', () => pracRate(d.key, 2));
+}
+function pracRate(key, q){
+  scheduleRate(key, q);
+  const iv = mastery[key].iv;
+  toast(q === 0 ? '已安排 1 天后复习' : q === 1 ? '下次复习 ' + iv + ' 天后' : '已提升为「' + LV_NAMES[mastery[key].lv] + '」');
+  pracNext();
+}
+function pracNext(){ pracIdx++; showPracItem(); }
 
 /* ============ 统计 ============ */
 const countModules = (s) => s.periods.reduce((n, p) => n + p.modules.length, 0);
@@ -683,7 +812,7 @@ function renderHome(){
       </div>
     </section>
     <div class="subj-grid">${cards}</div>
-    <div class="home-tip reveal">💡 使用指南：📖「电子课本」按真实教材单元目录浏览；点击知识点圆点可标记五级掌握度（陌生→眼熟→认识→熟悉→掌握）；顶栏「🔄 复习」按艾宾浩斯遗忘曲线自动安排间隔复习；点击知识点展开「讲解 / 例题 / 易错提醒」；🗺️ 知识图谱查看关联。</div>
+    <div class="home-tip reveal">💡 使用指南：📖「电子课本」按真实教材单元目录浏览；点击知识点圆点可标记五级掌握度；「🔄 复习」按遗忘曲线安排间隔复习；「✏️ 练习」用判断正误 / 回忆复述 / 例题思考检验掌握情况，答题结果自动更新复习计划；点击知识点展开「讲解 / 例题 / 易错提醒」并可直接「✏️ 练习」该条。</div>
     <footer class="site-foot reveal">📘 内容基于人教版新教材（2019 版）与统编版教材整理，覆盖高中三年全部重点 · 难点 · 考点，仅供学习参考。<br/>由 DeepSeek Harness 生成 · 双击 index.html 即可离线浏览</footer>`;
   bindTilt($$('.subj-card'));
   startTyping();
@@ -784,7 +913,7 @@ function renderItem(s, pi, mi, c, ii, t){
       ${en.example ? `<div class="ex ex-eg"><b>✏️ 例题</b><p>${esc(en.example)}</p></div>` : ''}
       ${en.tip ? `<div class="ex ex-tip"><b>⚠️ 易错提醒</b><p>${esc(en.tip)}</p></div>` : ''}
     </div>` : '';
-  const more = hasDetail ? `<button class="it-more" tabindex="-1">💡 查看讲解</button>` : '';
+  const more = hasDetail ? `<span class="it-more-row"><button class="it-more" tabindex="-1">💡 讲解</button><button class="it-prac" tabindex="-1">✏️ 练习</button></span>` : '';
   return `<li class="item lv${lv}" data-key="${key}" data-cat="${c.id}">
     <button class="dot" tabindex="-1" aria-hidden="true" title="点击切换掌握度：陌生 → 眼熟 → 认识 → 熟悉 → 掌握"></button>
     <div class="it-body">
@@ -2345,6 +2474,7 @@ $('#sideGraphBtn').addEventListener('click', openGraph);
 $('#etbBtn').addEventListener('click', openEtb);
 $('#sideEtbBtn').addEventListener('click', openEtb);
 $('#reviewBtn').addEventListener('click', openReview);
+$('#pracBtn').addEventListener('click', () => startPractice());
 $('#gvClose').addEventListener('click', closeGraph);
 
 /* ============ 抽屉（移动端） ============ */
@@ -2359,6 +2489,7 @@ document.addEventListener('click', (e) => {
   const item = e.target.closest('.item');
   if (item){
     if (e.target.closest('.dot') || item.dataset.cat === 't'){ cycleLevel(item); return; }
+    if (e.target.closest('.it-prac')){ startPractice(item.dataset.key); return; }
     item.classList.toggle('open');
     return;
   }
